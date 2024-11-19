@@ -1,0 +1,6 @@
+NZ_KQ961074.1, ['Bacteria', 'Bacillati', 'Actinomycetota', 'Coriobacteriia', 'Coriobacteriales', 'Atopobiaceae', 'Fannyhessea']
+NZ_LFWE01000020.1, ['Bacteria', 'Bacillati', 'Actinomycetota', 'Coriobacteriia', 'Coriobacteriales', 'Atopobiaceae', 'Fannyhessea']
+NZ_NQOJ01000020.1, ['Bacteria', 'Actinomycetota', 'Actinomycetes', 'Bifidobacteriales', 'Bifidobacteriaceae', 'Gardnerella']
+NZ_JASOME010000020.1, ['Bacteria', 'Bacillati', 'Actinomycetota', 'Actinomycetes', 'Bifidobacteriales', 'Bifidobacteriaceae', 'Gardnerella']
+NZ_JBHLSP010000031.1, ['Bacteria', 'Fusobacteriota', 'Fusobacteriia', 'Fusobacteriales', 'Leptotrichiaceae', 'Sneathia']
+NZ_JBHLSP010000030.1, ['Bacteria', 'Fusobacteriota', 'Fusobacteriia', 'Fusobacteriales', 'Leptotrichiaceae', 'Sneathia']
