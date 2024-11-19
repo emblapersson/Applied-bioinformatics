@@ -1,0 +1,25 @@
+#!/bin/bash -l
+#SBATCH -M snowy
+#SBATCH -p core
+#SBATCH -n 2
+#SBATCH -t 04:00:00
+#SBATCH -J taxonomic_script_001
+#SBATCH -e error_taxonomic
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user emblap@hotmail.se
+#SBATCH --output=taxonomic_output
+
+# Load modules
+module load bioinfo-tools
+module load qiime2
+
+# Commands
+qiime tools import \
+  --type 'SampleData[PairedEndSequencesWithQuality]' \
+  --input-format CasavaOneEightSingleLanePerSampleDirFmt \
+  --input-path simulated_sequences \
+  --output-path demultiplexed-sequences.qza
+
+qiime demux summarize \
+  --i-data demultiplexed-sequences.qza \
+  --o-visualization demultiplexed-sequences-summ.qzv
