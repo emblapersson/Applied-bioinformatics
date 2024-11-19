@@ -1,0 +1,10 @@
+"Bacteria" "Verrucomicrobia" "Verrucomicrobiae" "Verrucomicrobiales" "Verrucomicrobiaceae" NA
+"Bacteria" "Proteobacteria" "Deltaproteobacteria" "Desulfovibrionales" "Desulfovibrionaceae" "Desulfovibrio"
+"Bacteria" "Aquificae" "Aquificae" "Aquificales" "Hydrogenothermaceae" "Sulfurihydrogenibium"
+"Bacteria" "Aquificae" "Aquificae" "Aquificales" "Hydrogenothermaceae" "Sulfurihydrogenibium"
+"Bacteria" "Aquificae" "Aquificae" "Aquificales" "Hydrogenothermaceae" "Sulfurihydrogenibium"
+"Bacteria" "Aquificae" "Aquificae" "Aquificales" "Hydrogenothermaceae" "Sulfurihydrogenibium"
+"Bacteria" "Aquificae" "Aquificae" "Aquificales" "Hydrogenothermaceae" "Sulfurihydrogenibium"
+"Bacteria" "Proteobacteria" "Alphaproteobacteria" "Rhodobacterales" "Rhodobacteraceae" NA
+"Bacteria" "Actinobacteria" "Actinobacteria" "Actinomycetales" "Micromonosporaceae" "Salinispora"
+"Bacteria" "Actinobacteria" "Actinobacteria" "Actinomycetales" "Micromonosporaceae" "Salinispora"

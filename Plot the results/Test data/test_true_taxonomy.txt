@@ -1,0 +1,16 @@
+ID,Kingdom,Phylum,Class,Order,Family,Genus,Species
+1,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia,coli
+2,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Brucellaceae,Brucella,abortus
+3,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Streptococcus,pneumoniae
+4,Bacteria,Actinobacteria,Actinobacteria,Actinomycetales,Mycobacteriaceae,Mycobacterium,tuberculosis
+5,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,aeruginosa
+6,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,subtilis
+7,Bacteria,Spirochaetes,Spirochaetia,Spirochaetales,Spirochaetaceae,Treponema,pallidum
+8,Bacteria,Proteobacteria,Gammaproteobacteria,Vibrionales,Vibrionaceae,Vibrio,cholerae
+9,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Burkholderiaceae,Burkholderia,cepacia
+10,Bacteria,Cyanobacteria,Cyanophyceae,Chroococcales,Microcystaceae,Microcystis,aeruginosa
+11,Bacteria,Firmicutes,Clostridia,Clostridiales,Clostridiaceae,Clostridium,botulinum
+12,Bacteria,Proteobacteria,Epsilonproteobacteria,Campylobacterales,Campylobacteraceae,Campylobacter,jejuni
+13,Bacteria,Bacteroidetes,Bacteroidia,Bacteroidales,Bacteroidaceae,Bacteroides,fragilis
+14,Bacteria,Chlamydiae,Chlamydiae,Chlamydiales,Chlamydiaceae,Chlamydia,trachomatis
+15,Bacteria,Firmicutes,Bacilli,Lactobacillales,Lactobacillaceae,Lactobacillus,acidophilus

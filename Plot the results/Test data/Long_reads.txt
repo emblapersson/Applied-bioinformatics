@@ -1,0 +1,10 @@
+X1 "Bacteria" "Proteobacteria" "Gammaproteobacteria" NA NA NA
+X2 "Bacteria" "Verrucomicrobia" "Verrucomicrobiae" "Verrucomicrobiales" "Verrucomicrobiaceae" NA
+X3 "Bacteria" "Proteobacteria" "Deltaproteobacteria" "Desulfovibrionales" "Desulfovibrionaceae" "Desulfovibrio"
+X4 "Bacteria" "Aquificae" "Aquificae" "Aquificales" "Hydrogenothermaceae" "Sulfurihydrogenibium"
+X5 "Bacteria" "Proteobacteria" "Alphaproteobacteria" "Rhodobacterales" "Rhodobacteraceae" NA
+X6 "Bacteria" "Bacteroidetes" "Bacteroidia" "Bacteroidales" NA NA
+X7 "Bacteria" "Actinobacteria" "Actinobacteria" "Actinomycetales" "Micromonosporaceae" "Salinispora"
+X8 "Bacteria" "Proteobacteria" "Gammaproteobacteria" NA NA NA
+X9 "Archaea" "Euryarchaeota" "Methanococci" "Methanococcales" "Methanococcaceae" "Methanococcus"
+X10 "Bacteria" "Aquificae" "Aquificae" "Aquificales" "Hydrogenothermaceae" NA
