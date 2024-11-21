@@ -1,13 +1,14 @@
 #!/bin/bash -l
+#SBATCH -A uppmax2024-2-7
 #SBATCH -M snowy
 #SBATCH -p core
 #SBATCH -n 2
-#SBATCH -t 04:00:00
-#SBATCH -J taxonomic_script_001
-#SBATCH -e error_taxonomic
+#SBATCH -t 00:30:00
+#SBATCH -J importing_sequences_script_001
+#SBATCH -e error_importing
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user emblap@hotmail.se
-#SBATCH --output=taxonomic_output
+#SBATCH --output=importing_output
 
 # Load modules
 module load bioinfo-tools
@@ -15,9 +16,9 @@ module load qiime2
 
 # Commands
 qiime tools import \
-  --type 'SampleData[PairedEndSequencesWithQuality]' \
-  --input-format CasavaOneEightSingleLanePerSampleDirFmt \
-  --input-path simulated_sequences \
+  --type 'SampleData[SequencesWithQuality]' \
+  --input-format SingleEndFastqManifestPhred33 \
+  --input-path manifest-file.csv \
   --output-path demultiplexed-sequences.qza
 
 qiime demux summarize \
