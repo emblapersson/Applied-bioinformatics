@@ -5,10 +5,8 @@ Anaerococcus
 Anaerococcus lactolyticus
 Anaerococcus tetradius
 Atopobium 
-Atopobium vaginae
 Bifidobacterium 
 Bifidobacterium breve
-Bifidobacterium vaginale
 Dialister 
 Dialister micraerophilus
 Fannyhessea vaginae
@@ -21,8 +19,8 @@ Gardnerella piotii
 Gardnerella swidsinskii
 Gardnerella vaginalis
 Haemophilus parainfluenzae
-Haemophilus parainfluenzae
 Haemophilus pittmaniae
+Hoylesella timonensis
 Lactobacillus 
 Lactobacillus crispatus
 Lactobacillus fornicalis
@@ -33,7 +31,7 @@ Lactobacillus mulieris
 Megasphaera 
 Megasphaera hutchinsoni
 Megasphaera lornae
-Olsenella umbonata
+Parafannyhessea umbonata
 Parvimonas
 Peptoniphilus harei
 Peptoniphilus lacrimalis
@@ -43,7 +41,6 @@ Prevotella
 Prevotella amnii
 Prevotella bivia
 Prevotella disiens
-Prevotella timonensis
 Sneathia sanguinegens
 Sneathia vaginalis
 Streptococcus anginosus
