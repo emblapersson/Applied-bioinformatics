@@ -1,0 +1,26 @@
+#!/bin/bash -l
+#SBATCH -A uppmax2024-2-7
+#SBATCH -M snowy
+#SBATCH -p core
+#SBATCH -n 2
+#SBATCH -t 00:30:00
+#SBATCH -J importing_sequences_script_iontorrent_001
+#SBATCH -e error_importing_it
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user emblap@hotmail.se
+#SBATCH --output=importing_output_it
+
+# Load modules
+module load bioinfo-tools
+module load qiime2
+
+# Commands
+qiime tools import \
+  --type 'SampleData[SequencesWithQuality]' \
+  --input-format SingleEndFastqManifestPhred33 \
+  --input-path manifest-file_iontorrent.csv \
+  --output-path demultiplexed-sequences_it.qza
+
+qiime demux summarize \
+  --i-data demultiplexed-sequences_it.qza \
+  --o-visualization demultiplexed-sequences-summ_it.qzv

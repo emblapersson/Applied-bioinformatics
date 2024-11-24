@@ -1,0 +1,64 @@
+#!/bin/bash -l
+#SBATCH -A uppmax2024-2-7
+#SBATCH -M snowy
+#SBATCH -p core
+#SBATCH -n 2
+#SBATCH -t 04:00:00
+#SBATCH -J taxonomic_script_p_001
+#SBATCH -e error_taxonomic_p
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user emblap@hotmail.se
+#SBATCH --output=taxonomic_p_output
+
+# Load modules
+module load bioinfo-tools
+module load qiime2
+
+# Commands
+
+#Denoising - change X to values based on the quality plots
+qiime dada2 denoise-single \
+  --i-demultiplexed-seqs demultiplexed-sequences_p.qza \
+  --p-trunc-len 225 \
+  --p-max-ee 2 \
+  --p-chimera-method consensus \
+  --o-representative-sequences asv-sequences-0_p.qza \
+  --o-table feature-table-0_p.qza \
+  --o-denoising-stats dada2-stats_p.qza
+
+#Reviewing run statistics
+qiime metadata tabulate \
+  --m-input-file dada2-stats_p.qza \
+  --o-visualization dada2-stats-summ_p.qzv
+
+#Summaries of feature data and feature table
+qiime feature-table summarize \
+  --i-table feature-table-0_p.qza \
+  --m-sample-metadata-file metadata_pacbio.tsv \
+  --o-visualization feature-table-0-summ_p.qzv
+qiime feature-table tabulate-seqs \
+  --i-data asv-sequences-0_p.qza \
+  --o-visualization asv-sequences-0-summ_p.qzv
+
+#Filtering?
+
+#Taxonomy assignment - change the link & double check the read link
+wget \
+  -O '16S-nb-classifier.qza' \
+  'https://data.qiime2.org/classifiers/greengenes/gg_2022_10_backbone_full_length.nb.qza'
+
+qiime feature-classifier classify-sklearn \
+  --i-classifier 16S-nb-classifier.qza \
+  --i-reads asv-sequences-0_p.qza  \
+  --o-classification taxonomy_pacbio.qza
+
+qiime metadata tabulate \
+  --m-input-file taxonomy_pacbio.qza \
+  --o-visualization taxonomy_pacbio.qzv
+
+#Taxonomic composition barplots - metadata?
+qiime taxa barplot \
+  --i-table feature-table-0_p.qza \
+  --i-taxonomy taxonomy_pacbio.qza \
+  --m-metadata-file metadata_pacbio.tsv \
+  --o-visualization taxa-bar-plots-1_pacbio.qzv
