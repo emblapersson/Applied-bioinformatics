@@ -1,20 +1,23 @@
 #!/bin/bash -l
-
-#####################
+# ------------------------------------------------------------------------------------------------------
+# SIMULATE MOCK COMMUNITIES
 # Creates mock communities with different organisms in different ratios
 
-# INPUT:
+# Input:
 # - SEQUENCE_FILE = Fasta file with sequences for all organisms of interest
 # - RATIOS = A folder with csv files describing the ratio of different organisms
 # for various community structures with 100 organisms
-# OUTPUT:
+# Output:
 # - MOCK_COMMUNITY = Fasta file with sequences corresponding to the given ratio for that community structure
-#####################
 
-# The input and output files and folders
+# ------------------------------------------------------------------------------------------------------
+
+# TO BE SPECIFIED
 SEQUENCE_FILE=01_Input_data/All_taxa_species_genus.fasta
 RATIOS=02_Ratios
 OUTPUT_FOLDER=03_Mock_communities
+
+# ------------------------------------------------------------------------------------------------------
 
 # For all types of mock communities to construct
 # Open the correct ratio file
