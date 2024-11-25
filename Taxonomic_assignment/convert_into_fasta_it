@@ -1,0 +1,6 @@
+#convert the sequences into fasta format
+awk -F',' '{print ">"$1"\n"$2}' asv-sequences.csv > asv-sequences.fasta
+
+#remove none allowed characters
+sed -i 's/"//g' asv-sequences.fasta
+sed '1d' asv-sequences.fasta

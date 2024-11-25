@@ -1,10 +1,10 @@
 module load sratools
 
 #Collect the SRR files from SRA
-prefetch --option-file SRR_Acc_List.txt
+prefetch --option-file SRR_Acc_List_it.txt
 
 #Convert the SRR files into fastq-files
-for dir in SRR14*; do
+for dir in SRR3*; do
      if [[ -d "$dir" ]]; then
          echo "Bearbetar katalogen: $dir"
          
@@ -12,8 +12,8 @@ for dir in SRR14*; do
          sra_file="$dir/$dir.sra"
          if [[ -f "$sra_file" ]]; then
              echo "Konverterar $sra_file till FASTQ..."
-             fasterq-dump --outdir ./testdata_illumina "$sra_file"
-             echo "FASTQ-filer från $sra_file sparade i testdata_illumina."
+             fasterq-dump --outdir ./testdata "$sra_file"
+             echo "FASTQ-filer från $sra_file sparade i testdata."
          else
              echo "Ingen .sra-fil hittades i $dir, hoppar över."
          fi
@@ -21,4 +21,4 @@ for dir in SRR14*; do
  done
 
 #Zip the fastq-files
-gzip testdata_illumina/*.fastq
+gzip testdata/*.fastq
