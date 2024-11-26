@@ -18,8 +18,8 @@
 
 # TO BE SPECIFIED
 # Input and output
-input_species = '01_Input_data/Given_organisms_species_genus.txt'
-output_folder = '02_Sequences/'
+input_species = '/Users/claranordquist/Documents/Universitetet/HT24/Tillämpad bioinformatik/Applied-bioinformatics/01_Collect_sequences/01_Input_data/Given_organisms_species_genus.txt'
+output_folder = '/Users/claranordquist/Documents/Universitetet/HT24/Tillämpad bioinformatik/Applied-bioinformatics/01_Collect_sequences/02_Sequences/'
 output_fasta_file = 'All_taxa_species_genus.fasta'
 output_taxonomy_file = 'Taxonomy_species_genus.csv'
 output_notfound_file = 'Not_found_species_genus.txt'
@@ -39,11 +39,12 @@ from Bio import SeqIO
 # Read input data
 organism_dataset = pd.read_csv(input_species, names=['Organisms'])
 organisms = [a for a in organism_dataset.iloc[:, 0]]
+# organisms = ['Anaerococcus', 'Alloscardovia omnicolens']
 
 # Define outputs
 output_fasta = open(output_folder+output_fasta_file, 'w')
 output_taxonomy = open(output_folder+output_taxonomy_file, 'w')
-output_taxonomy.write(f'ID, Kingdom, Phylum, Class, Order, Family, Genus, Species\n')
+output_taxonomy.write(f'Feature ID,Kingdom,Phylum,Class,Order,Family,Genus,Species\n')
 output_notfound = open(output_folder+output_notfound_file, 'w')
 
 # Loop through all species
@@ -79,11 +80,21 @@ for organism in organisms:
         output_fasta.write(data)
 
         # Download the taxonomy
+        # Remove the second level (we use superkingdom as kingdom)
+        # Specify only the species name (ie Aerococcus christensenii DSM 15819 = CCUG 28831 strain DSM 15819 --> Aerococcus christensenii)
+        # If the sample hasn't been classified down to species level, remove sp. (ie Atopobium sp. --> Atopobium)
         stream = Entrez.efetch(db = 'nucleotide', rettype = 'gb', retmode = 'text', retmax = seqs_per_species, 
                                webenv = webenv, query_key = query_key, idtype = 'acc')
         for record in SeqIO.parse(stream, 'genbank'):
             output_taxonomy.write(f'{record.id}, ')
-            output_taxonomy.write(f'{str(record.annotations["taxonomy"]).replace("[", "").replace("]", "")}\n')
+            kingdom_class = record.annotations["taxonomy"][0:6]
+            genus_species = record.annotations['organism'].split(' ')
+            all_levels = (kingdom_class + genus_species[0:2])
+            all_levels.pop(1)
+            if all_levels[-1] == 'sp.':
+                all_levels.pop(-1)
+            all_levels = str(all_levels).replace("[", "").replace("]", "").replace("'","")
+            output_taxonomy.write(f'{all_levels}\n')
     
     # If the organism isn't found
     else:
