@@ -29,18 +29,31 @@ dataset[taxonomic_levels] = qiime_reads['Taxon'].str.split(';', expand=True)
 dataset.drop('Taxon', axis=1, inplace=True)
 
 # Delete the taxonomical levels from the names (k__Bacteria --> Bacteria)
-def rename(name):
+def delete_prefix(name):
     '''Deletes the taxonomical prefix in classifications
-    k_Bacteria --> Bacteria
-    '''
+    k_Bacteria --> Bacteria'''
     if name:
         return re.sub('.{1}__', '', name)
+
+# Take away things following _ (Akkermansia muciniphila_D_776786 --> Akkermansia muciniphila)
+def extract_name(name):
+    '''Deletes all characters following _
+    Akkermansia muciniphila_D_776786 --> Akkermansia muciniphila'''
+    if type(name) == str:
+        return re.sub(r'_.*', '', name)
 
 # Loop through all classifications
 for row in range(len(dataset)):
     for column in range(len(taxonomic_levels)):
-        name = dataset.iloc[row, 1+column]
-        dataset.iloc[row, 1+column] = rename(name)
-    dataset.iloc[row, :] = dataset.iloc[row, :].str.strip()
+        name = dataset.iloc[row, column+1]
+        temp = delete_prefix(name)
+        dataset.iloc[row, column+1] = extract_name(temp)
+    dataset.iloc[row, 1:column] = dataset.iloc[row, 1:column].str.replace(' ', '')
+
+# Delete the genus name from the species column
+dataset[['Genus1', 'Species_new']] = dataset['Species'].str.split(expand=True)
+dataset.drop('Genus1', inplace=True, axis=1)
+dataset.drop('Species', inplace=True, axis=1)
+dataset.rename(columns={'Species_new':'Species'}, inplace=True)
 
 dataset.to_csv(output_taxonomy)
