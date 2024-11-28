@@ -12,7 +12,7 @@
 
 # Load modules
 module load bioinfo-tools
-module load qiime2
+module load qiime2/2024.10
 
 # Commands
 
@@ -45,7 +45,7 @@ qiime feature-table tabulate-seqs \
 #Taxonomy assignment - change the link & double check the read link
 wget \
   -O '16S-nb-classifier.qza' \
-  'https://data.qiime2.org/classifiers/greengenes/gg_2022_10_backbone_full_length.nb.qza'
+  'https://data.qiime2.org/classifiers/sklearn-1.4.2/greengenes2/2022.10.backbone.full-length.nb.sklearn-1.4.2.qza'
 
 qiime feature-classifier classify-sklearn \
   --i-classifier 16S-nb-classifier.qza \
