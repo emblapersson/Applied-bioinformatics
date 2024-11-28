@@ -18,9 +18,9 @@ module load qiime2
 qiime tools import \
   --type 'SampleData[SequencesWithQuality]' \
   --input-format SingleEndFastqManifestPhred33 \
-  --input-path manifest-file.csv \
-  --output-path demultiplexed-sequences.qza
+  --input-path 01_Input_data/manifest-file.csv \
+  --output-path 02_Output_data/demultiplexed-sequences.qza
 
 qiime demux summarize \
-  --i-data demultiplexed-sequences.qza \
-  --o-visualization demultiplexed-sequences-summ.qzv
+  --i-data 02_Output_data/demultiplexed-sequences.qza \
+  --o-visualization 02_Output_data/demultiplexed-sequences-summ.qzv
