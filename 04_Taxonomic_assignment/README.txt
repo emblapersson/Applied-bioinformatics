@@ -10,14 +10,16 @@ Folder structure:
         
 - 02_Output_data
         - A qza file containing the sequencing data
-        - A qzv file containing a summary of the data
         - A qza file containing the ASV sequences
         - A qza file containing the feature table
         - A qza file containing the DADA2 running statistics
+        - A qza file containing the classifier
+        - A qza file containing the taxonomy
+
+- 03_Results
+        - A qzv file containing a summary of the data
         - A qzv file containing a summary of the DADA2 running statistics
         - A qzv file containing a summary of the feature table
         - A qzv file containing a summary of the ASV sequences
-        - A qza file containing the classifier
-        - A qza file containing the taxonomy
         - A qzv file containing the taxonomy
         - A qzv file containing the taxa bar plots
