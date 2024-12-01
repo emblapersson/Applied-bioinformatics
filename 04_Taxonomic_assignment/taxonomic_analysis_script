@@ -29,16 +29,16 @@ qiime dada2 denoise-single \
 #Reviewing run statistics
 qiime metadata tabulate \
   --m-input-file 02_Output_data/dada2-stats.qza \
-  --o-visualization 02_Output_data/dada2-stats-summ.qzv
+  --o-visualization 03_Results/dada2-stats-summ.qzv
 
 #Summaries of feature data and feature table
 qiime feature-table summarize \
   --i-table 02_Output_data/feature-table-0.qza \
   --m-sample-metadata-file 02_Output_data/manifest-file.tsv \
-  --o-visualization 02_Output_data/feature-table-0-summ.qzv
+  --o-visualization 03_Results/feature-table-0-summ.qzv
 qiime feature-table tabulate-seqs \
   --i-data 02_Output_data/asv-sequences-0.qza \
-  --o-visualization 02_Output_data/asv-sequences-0-summ.qzv
+  --o-visualization 03_Results/asv-sequences-0-summ.qzv
 
 #Filtering?
 
@@ -54,11 +54,11 @@ qiime feature-classifier classify-sklearn \
 
 qiime metadata tabulate \
   --m-input-file 02_Output_data/taxonomy.qza \
-  --o-visualization 02_Output_data/taxonomy.qzv
+  --o-visualization 03_Results/taxonomy.qzv
 
 #Taxonomic composition barplots - metadata?
 qiime taxa barplot \
   --i-table 02_Output_data/feature-table-0.qza \
   --i-taxonomy 02_Output_data/taxonomy.qza \
   --m-metadata-file 01_Input_data/manifest_file.tsv \
-  --o-visualization 02_Output_data/taxa-bar-plots-1.qzv
+  --o-visualization 03_Results/taxa-bar-plots-1.qzv

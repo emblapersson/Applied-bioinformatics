@@ -23,4 +23,4 @@ qiime tools import \
 
 qiime demux summarize \
   --i-data 02_Output_data/demultiplexed-sequences.qza \
-  --o-visualization 02_Output_data/demultiplexed-sequences-summ.qzv
+  --o-visualization 03_Results/demultiplexed-sequences-summ.qzv
