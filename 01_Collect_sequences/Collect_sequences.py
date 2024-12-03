@@ -18,8 +18,8 @@
 
 # TO BE SPECIFIED
 # Input and output
-input_species = '/Users/claranordquist/Documents/Universitetet/HT24/Tillämpad bioinformatik/Applied-bioinformatics/01_Collect_sequences/01_Input_data/Given_organisms_species_genus.txt'
-output_folder = '/Users/claranordquist/Documents/Universitetet/HT24/Tillämpad bioinformatik/Applied-bioinformatics/01_Collect_sequences/02_Sequences/'
+input_species = '/Users/claranordquist/Documents/Universitetet/HT24/Tillämpad_bioinformatik/Applied-bioinformatics/01_Collect_sequences/01_Input_data/Given_organisms_species_genus.txt'
+output_folder = '/Users/claranordquist/Documents/Universitetet/HT24/Tillämpad_bioinformatik/Applied-bioinformatics/01_Collect_sequences/02_Sequences/'
 output_fasta_file = 'All_taxa_species_genus.fasta'
 output_taxonomy_file = 'Taxonomy_species_genus.csv'
 output_notfound_file = 'Not_found_species_genus.txt'
