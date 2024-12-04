@@ -6,7 +6,7 @@
 # - input_sequences: A fastafile with the sequences of interest [.fasta]
 # - reference_sequence: A fastafile with the reference sequence, where the primers are known to be found [.fasta]
 # - forward_primer: The sequence of the forward primer
-# - reverse_primer: The sequence of the reverse primer
+# - reverse_primer: The sequence of the reverse primer, given as if it was on the same strand as the forward primer
 # - forward_primer_lengths: List of lengths of subsequences of the forward primer you want to try
 # - reverse_primer_lengths: List of lengths of subsequences of the reverse primer you want to try
 # Output:
@@ -23,13 +23,13 @@
 
 # TO BE SPECIFIED
 # Input and output
-input_sequences = '/Users/claranordquist/Documents/Universitetet/HT24/Tillämpad_bioinformatik/Applied-bioinformatics/01_Extract_regions/01_Input_data/Vaginal_species_all.fasta'
+input_sequences = '/Users/claranordquist/Documents/Universitetet/HT24/Tillämpad_bioinformatik/Applied-bioinformatics/01_Collect_sequences/02_Sequences/Downloaded_4dec/All_taxa_species_genus.fasta'
 reference_sequence = '/Users/claranordquist/Documents/Universitetet/HT24/Tillämpad_bioinformatik/Applied-bioinformatics/01_Extract_regions/01_Input_data/Ecoli.fasta'
-forward_primer = 'GTAACAGGAAGAAGCTTGCTTCTTTGCTGAC'
-reverse_primer = 'GTAGGTAGCTTAACCTTCGGGAGGGCGCTTA'
-forward_primer_lengths = [4]
-reverse_primer_lengths = [5]
-optimized_primers_file = '/Users/claranordquist/Documents/Universitetet/HT24/Tillämpad_bioinformatik/Applied-bioinformatics/01_Extract_regions/Optimized_primers.csv'
+forward_primer = 'AGAGTTTGATCATGGCTCAG'
+reverse_primer = 'AAGTCGTAACAAGGTAACC'
+forward_primer_lengths = [4, 5, 6]
+reverse_primer_lengths = [4, 5, 6]
+optimized_primers_file = '/Users/claranordquist/Documents/Universitetet/HT24/Tillämpad_bioinformatik/Applied-bioinformatics/01_Extract_regions/02_Output_data/Optimized_primers_v1v9.csv'
 
 # ------------------------------------------------------------------------------------------------------
 # Import packages

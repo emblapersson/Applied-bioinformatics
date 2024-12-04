@@ -19,7 +19,7 @@
 # TO BE SPECIFIED
 # Input and output
 input_species = '/Users/claranordquist/Documents/Universitetet/HT24/Tillämpad_bioinformatik/Applied-bioinformatics/01_Collect_sequences/01_Input_data/Given_organisms_species_genus.txt'
-output_folder = '/Users/claranordquist/Documents/Universitetet/HT24/Tillämpad_bioinformatik/Applied-bioinformatics/01_Collect_sequences/02_Sequences/'
+output_folder = '/Users/claranordquist/Documents/Universitetet/HT24/Tillämpad_bioinformatik/Applied-bioinformatics/01_Collect_sequences/02_Sequences/Downloaded_4dec/'
 output_fasta_file = 'All_taxa_species_genus.fasta'
 output_taxonomy_file = 'Taxonomy_species_genus.csv'
 output_notfound_file = 'Not_found_species_genus.txt'
@@ -39,7 +39,6 @@ from Bio import SeqIO
 # Read input data
 organism_dataset = pd.read_csv(input_species, names=['Organisms'])
 organisms = [a for a in organism_dataset.iloc[:, 0]]
-# organisms = ['Anaerococcus', 'Alloscardovia omnicolens']
 
 # Define outputs
 output_fasta = open(output_folder+output_fasta_file, 'w')
