@@ -7,7 +7,7 @@
 # - input_sequences: A fastafile with the sequences of interest [.fasta]
 # - reference_sequence: A fastafile with the reference sequence, where the primers are known to be found [.fasta]
 # - forward_primer: The sequence of the forward primer
-# - reverse_primer: The sequence of the reverse primer, given as if it was on the same strand as the forward primer
+# - reverse_primer: The sequence of the reverse primer
 # Output:
 # - output_fasta: A fasta file with the extracted regions [.fasta]
 # - output_missing: A txt file in which sequences where the primers couldn't be found will be stored [.txt]
@@ -22,12 +22,16 @@
 
 # TO BE SPECIFIED
 # Input and output
-input_sequences = '/Users/claranordquist/Documents/Universitetet/HT24/Tillämpad_bioinformatik/Applied-bioinformatics/01_Collect_sequences/02_Sequences/Downloaded_4dec/All_taxa_species_genus.fasta'
+input_sequences = '/Users/claranordquist/Documents/Universitetet/HT24/Tillämpad_bioinformatik/Applied-bioinformatics/01_Collect_sequences/02_Sequences/Downloaded_5dec/All_taxa_species_genus.fasta'
 reference_sequence = '/Users/claranordquist/Documents/Universitetet/HT24/Tillämpad_bioinformatik/Applied-bioinformatics/01_Extract_regions/01_Input_data/Ecoli.fasta'
+# V1V9
+# forward_primer = 'AGAGTTTGATCATGGCTCAG'
+# reverse_primer = 'GGTTACCTTGTTACGACTT'
+# V3V4
 forward_primer = 'CCTACGGGAGGCAGCAG'
 reverse_primer = 'GACTACCAGGGTATCTAATCC'
 output_fasta_file = '/Users/claranordquist/Documents/Universitetet/HT24/Tillämpad_bioinformatik/Applied-bioinformatics/01_Extract_regions/02_Output_data/All_taxa_species_genus_v3v4.fasta'
-output_missing_file = '/Users/claranordquist/Documents/Universitetet/HT24/Tillämpad_bioinformatik/Applied-bioinformatics/01_Extract_regions/02_Output_data/All_taxa_species_genus_v3v4.txt'
+output_missing_file = '/Users/claranordquist/Documents/Universitetet/HT24/Tillämpad_bioinformatik/Applied-bioinformatics/01_Extract_regions/02_Output_data/All_taxa_species_genus_missingv3v4.txt'
 
 # ------------------------------------------------------------------------------------------------------
 # Import packages
