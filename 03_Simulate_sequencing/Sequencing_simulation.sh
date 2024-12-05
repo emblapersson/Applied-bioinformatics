@@ -4,7 +4,7 @@
 #SBATCH -p core 
 #SBATCH -n 2
 #SBATCH -t 00:45:00
-#SBATCH -J Binning
+#SBATCH -J Sequencing_simulation
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user gslottner@gmail.com
 
