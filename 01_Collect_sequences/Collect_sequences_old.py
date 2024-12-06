@@ -1,7 +1,6 @@
 # COLLECT SEQUENCES FROM NCBI
 # A script to download the 16S rRNA gene for a given number of species from NCBI, as well as their taxonomic classification
 # The program requires that biopython is installed
-# It takes into consideration already downloaded sequences, so that no duplicate sequences are downloaded
 
 # Input:
 # - input_species: A txt file with the organisms of interest at species or genus level
@@ -14,7 +13,7 @@
 # Search with the filters:
 # - Species = Bacteria
 # - Source databases = RefSeq
-# - Sequence length = [1450, 1650]
+# - Sequence length = [1300, 1800]
 # ------------------------------------------------------------------------------------------------------
 
 # TO BE SPECIFIED
@@ -53,8 +52,6 @@ output_notfound = open(output_folder+output_notfound_file, 'w')
 # For each downloaded sequence, save the taxonomy of the organism to output_taxonomy_file
 # If an organism isn't found, write it to the terminal and save it to output_notfound_file
 
-already_downloaded = []
-
 for organism in organisms:
     Entrez.email = email
 
@@ -72,28 +69,13 @@ for organism in organisms:
     webenv = search_results['WebEnv']
     query_key = search_results['QueryKey']
     
-    # Find which entry do download, so that we don't get any duplicate sequences
+    # Download the 16S rRNA gene
+    stream = Entrez.efetch(db = 'nucleotide', rettype = 'fasta', retmode = 'text', retmax = seqs_per_species, 
+                           webenv = webenv, query_key = query_key, idtype = 'acc')
+    data = stream.read()
+    
     # If the organism is found
-    # Get the best hit, which isn't already in the dataset
-    if len(acc_list) > 0:
-        best_hit = acc_list[0]
-        if best_hit not in already_downloaded:
-            already_downloaded.append(best_hit)
-            i = 0
-        else:
-            i = 0
-            while best_hit in already_downloaded and i < len(acc_list)-1:
-                i += 1
-                best_hit = acc_list[i]
-            already_downloaded.append(best_hit)
-
-        # Download the 16S rRNA gene
-        stream = Entrez.efetch(db = 'nucleotide', rettype = 'fasta', retmode = 'text', retstart = i, retmax = seqs_per_species, 
-                            webenv = webenv, query_key = query_key, idtype = 'acc')
-        data = stream.read()
-        stream.close()
-
-        # If the organism is found
+    if type(data) == str:
         output_fasta.write(data)
 
         # Download the taxonomy
