@@ -14,10 +14,10 @@ module load bioinfo-tools python/3.9.5 biopython/1.80-py3.9.5 pysam/0.17.0-pytho
 
 cd resultsPB
 
-pbsim --strategy wgs --method qshmm --qshmm /home/gahe8576/private/AppBio/SeqSim/pbsim3/pbsim3/data/QSHMM-RSII.model --depth 10000 --genome ../../01_Extract_regions/02_Output_data/All_taxa_species_genus_v1v9.fasta
+pbsim --strategy wgs --method qshmm --qshmm /home/gahe8576/private/AppBio/SeqSim/pbsim3/pbsim3/data/QSHMM-RSII.model --depth 500 --genome ../../01_Extract_regions/02_Output_data/All_taxa_species_genus_v1v9.fasta
 
 cat *.fastq > PacBio_v1v9.fastq
 
 cd ../resultsILL
 
-/home/gahe8576/.local/bin/iss generate --genomes ../../01_Extract_regions/02_Output_data/All_taxa_species_genus_v3v4.fasta -n 200000 --sequence_type amplicon --model miseq --output Illumina_v3v4_miseq
+/home/gahe8576/.local/bin/iss generate --genomes ../../01_Extract_regions/02_Output_data/All_taxa_species_genus_v3v4.fasta -n 20000 --sequence_type amplicon --model miseq --output Illumina_v3v4_miseq
