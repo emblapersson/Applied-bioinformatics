@@ -16,6 +16,8 @@ cd resultsPB
 
 pbsim --strategy wgs --method qshmm --qshmm /home/gahe8576/private/AppBio/SeqSim/pbsim3/pbsim3/data/QSHMM-RSII.model --depth 10000 --genome ../../01_Extract_regions/02_Output_data/All_taxa_species_genus_v1v9.fasta
 
+cat *.fastq > PacBio_v1v9.fastq
+
 cd ../resultsILL
 
 /home/gahe8576/.local/bin/iss generate --genomes ../../01_Extract_regions/02_Output_data/All_taxa_species_genus_v3v4.fasta -n 200000 --sequence_type amplicon --model miseq --output Illumina_v3v4_miseq
