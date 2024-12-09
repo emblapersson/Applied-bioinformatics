@@ -3,10 +3,13 @@ Scripts:
 - importing_sequences_script: Importing the simulated sequencing to QIIME2 and producing a summary of the data
 - taxonomic_analysis_script: Denoising the data with DADA2, taxonomically assign the ASVs and producing a taxa-bar-plot
 
+Sample information:
+- The files for each sample are named with the simulated technique and numbered to indicate which sample
+
 Folder structure:
 - 01_Input_data:
         - A manifest file containing the sample id, absolute file path and direction of sequencing
-        - Metadata
+        - Metadata containing the sample id, the simulated platforn, strategy, source, layout and composition of each sample
         
 - 02_Output_data
         - A qza file containing the sequencing data
