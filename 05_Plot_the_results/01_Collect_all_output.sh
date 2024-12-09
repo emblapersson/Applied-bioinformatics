@@ -12,8 +12,16 @@
 
 # TO BE SPECIFIED
 SEQUENCE_MAP=/Users/claranordquist/Documents/Universitetet/HT24/Tillämpad_bioinformatik/Applied-bioinformatics/05_Plot_the_results/01_Data
+OUTPUT_FILE=/Users/claranordquist/Documents/Universitetet/HT24/Tillämpad_bioinformatik/Applied-bioinformatics/05_Plot_the_results/01_Data/Collected.tsv
 
+# ------------------------------------------------------------------------------------------------------
+
+# Add the file header to the top of the output file
+echo "Feature ID    Taxon   Confidence" > $OUTPUT_FILE
+
+# Collect the sequences from each tsv file
 for SEQ in $SEQUENCE_MAP/*.tsv
 do
-    echo $SEQ
+    sed -n '1,2d;p' $SEQ >> $OUTPUT_FILE
+    echo -en '\n' >> $OUTPUT_FILE
 done

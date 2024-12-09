@@ -19,7 +19,8 @@ import pandas as pd
 import regex as re
 
 # Read the input data
-qiime_reads = pd.read_csv(qiime_taxonomy, sep='\t', index_col='Feature ID', skiprows = [1])
+# Might need skiprows = [1]
+qiime_reads = pd.read_csv(qiime_taxonomy, sep='\t', index_col='Feature ID')
 dataset = qiime_reads.copy(deep=True)
 
 # Divide the column "taxon" into the taxonomical levels
