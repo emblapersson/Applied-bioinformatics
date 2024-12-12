@@ -9,8 +9,8 @@
 # ------------------------------------------------------------------------------------------------------
 
 # TO BE SPECIFIED
-qiime_taxonomy = '/Users/claranordquist/Downloads/metadata.tsv'
-output_taxonomy = '/Users/claranordquist/Documents/Universitetet/HT24/Tillämpad_bioinformatik/Applied-bioinformatics/05_Plot_the_results/01_Data/illumina.csv'
+qiime_taxonomy = '/Users/claranordquist/Documents/Universitetet/HT24/Tillämpad_bioinformatik/Applied-bioinformatics/05_Plot_the_results/01_Data/Illumina_clean.csv'
+output_taxonomy = '/Users/claranordquist/Documents/Universitetet/HT24/Tillämpad_bioinformatik/Applied-bioinformatics/05_Plot_the_results/01_Data/Illumina_names_fixed.csv'
 
 # ------------------------------------------------------------------------------------------------------
 
@@ -20,14 +20,14 @@ import regex as re
 
 # Read the input data
 # Might need skiprows = [1]
-qiime_reads = pd.read_csv(qiime_taxonomy, sep='\t', index_col='Feature ID')
+qiime_reads = pd.read_csv(qiime_taxonomy, sep=',', index_col='index')
 dataset = qiime_reads.copy(deep=True)
 
 # Divide the column "taxon" into the taxonomical levels
 # Delete the original "taxon" column
 taxonomic_levels = ['Kingdom', 'Phylum', 'Class', 'Order', 'Family', 'Genus', 'Species']
-dataset[taxonomic_levels] = qiime_reads['Taxon'].str.split(';', expand=True)
-dataset.drop('Taxon', axis=1, inplace=True)
+dataset[taxonomic_levels] = qiime_reads['Taxonomy'].str.split(';', expand=True)
+dataset.drop('Taxonomy', axis=1, inplace=True)
 
 # Delete the taxonomical levels from the names (k__Bacteria --> Bacteria)
 def delete_prefix(name):
@@ -52,9 +52,9 @@ dataset.rename(columns={'Species_new':'Species'}, inplace=True)
 # Loop through all classifications
 for row in range(len(dataset)):
     for column in range(len(taxonomic_levels)):
-        name = dataset.iloc[row, column+1]
+        name = dataset.iloc[row, column]
         temp = delete_prefix(name)
-        dataset.iloc[row, column+1] = extract_name(temp)
+        dataset.iloc[row, column] = extract_name(temp)
     dataset.iloc[row, 1:column] = dataset.iloc[row, 1:column].str.replace(' ', '')
 
 dataset.to_csv(output_taxonomy)

@@ -100,7 +100,7 @@ for organism in organisms:
         # Remove the second level (we use superkingdom as kingdom)
         # Specify only the species name (ie Aerococcus christensenii DSM 15819 = CCUG 28831 strain DSM 15819 --> Aerococcus christensenii)
         # If the sample hasn't been classified down to species level, remove sp. (ie Atopobium sp. --> Atopobium)
-        stream = Entrez.efetch(db = 'nucleotide', rettype = 'gb', retmode = 'text', retmax = seqs_per_species, 
+        stream = Entrez.efetch(db = 'nucleotide', rettype = 'gb', retmode = 'text', retstart = i, retmax = seqs_per_species, 
                                webenv = webenv, query_key = query_key, idtype = 'acc')
         for record in SeqIO.parse(stream, 'genbank'):
             output_taxonomy.write(f'{record.id}, ')
