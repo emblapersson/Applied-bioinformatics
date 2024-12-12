@@ -1,0 +1,46 @@
+#!/bin/bash -l
+#SBATCH -A uppmax2024-2-7
+#SBATCH -M snowy
+#SBATCH -p core
+#SBATCH -n 2
+#SBATCH -t 02:00:00
+#SBATCH -J importing_sequences_script_fasta_illumina_001
+#SBATCH -e error_importing_fasta_illumina
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user emblap@hotmail.se
+#SBATCH --output=importing_output_fasta_illumina
+
+# Load modules
+module load bioinfo-tools
+module load qiime2/2024.10
+
+# Commands
+input_folder=/home/embla/Applied-bioinformatics/01_Extract_regions/02_Output_data/Individual_v3v4
+output_folder=/home/embla/Applied-bioinformatics/04_Taxonomic_assignment/02_Output_data/fasta_illumina
+result_folder=/home/embla/Applied-bioinformatics/04_Taxonomic_assignment/03_Results/fasta_illumina
+
+for file in $(ls $input_folder)
+do
+qiime tools import \
+  --type 'FeatureData[Sequence]' \
+  --input-path $input_folder/$file \
+  --output-path $output_folder/${file}.qza
+done
+
+#Taxonomy assignment - change the link & double check the read link
+wget \
+  -O '16S-nb-classifier.qza' \
+  'https://data.qiime2.org/classifiers/sklearn-1.4.2/greengenes2/2022.10.backbone.full-length.nb.sklearn-1.4.2.qza'
+
+for file in $(ls $output_folder/*.1.fasta.qza)
+do
+name=$(basename -s .fasta.qza "$file")
+qiime feature-classifier classify-sklearn \
+  --i-classifier 16S-nb-classifier.qza \
+  --i-reads $output_folder/${name}.fasta.qza  \
+  --o-classification $output_folder/taxonomy_${name}.qza
+
+qiime metadata tabulate \
+  --m-input-file $output_folder/taxonomy_${name}.qza \
+  --o-visualization $result_folder/taxonomy_${name}.qzv
+done
