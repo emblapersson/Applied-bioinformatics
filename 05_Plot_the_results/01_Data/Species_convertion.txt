@@ -1,0 +1,13 @@
+Bifidobacterium vaginale,Gardnerella vaginalis
+Bifidobacterium leopoldii,Gardnerella vaginalis
+Bifidobacterium leopoldii,Gardnerella leopoldii
+Bifidobacterium piotii,Gardnerella vaginalis
+Bifidobacterium piotii,Gardnerella piotii
+Bifidobacterium piotii,Peptoniphilus lacrimalis
+Bifidobacterium swidsinskii,Gardnerella vaginalis
+Bifidobacterium swidsinskii,Gardnerella swidsinskii
+Haemophilus pittmaniae,Haemophilus pittmaniae
+Sneathia amnionii,Sneathia vaginalis
+Atopobium vaginae,Fannyhessea vaginae
+Olsenella umbonata,Parafannyhessea umbonata
+Prevotella timonensis,Hoylesella timonensis
