@@ -9,7 +9,7 @@
 # ------------------------------------------------------------------------------------------------------
 
 # TO BE SPECIFIED
-qiime_taxonomy = '/Users/claranordquist/Documents/Universitetet/HT24/Tillämpad_bioinformatik/Applied-bioinformatics/05_Plot_the_results/01_Data/Illumina_clean.csv'
+qiime_taxonomy = '/Users/claranordquist/Documents/Universitetet/HT24/Tillämpad_bioinformatik/Applied-bioinformatics/05_Plot_the_results/01_Data/Fasta_short_reads/Fasta_short_reads.tsv'
 output_taxonomy = '/Users/claranordquist/Documents/Universitetet/HT24/Tillämpad_bioinformatik/Applied-bioinformatics/05_Plot_the_results/01_Data/Illumina_names_fixed.csv'
 
 # ------------------------------------------------------------------------------------------------------
@@ -20,41 +20,42 @@ import regex as re
 
 # Read the input data
 # Might need skiprows = [1]
-qiime_reads = pd.read_csv(qiime_taxonomy, sep=',', index_col='index')
+qiime_reads = pd.read_csv(qiime_taxonomy, index_col='index')
 dataset = qiime_reads.copy(deep=True)
+print(qiime_reads)
 
 # Divide the column "taxon" into the taxonomical levels
 # Delete the original "taxon" column
-taxonomic_levels = ['Kingdom', 'Phylum', 'Class', 'Order', 'Family', 'Genus', 'Species']
-dataset[taxonomic_levels] = qiime_reads['Taxonomy'].str.split(';', expand=True)
-dataset.drop('Taxonomy', axis=1, inplace=True)
+# taxonomic_levels = ['Kingdom', 'Phylum', 'Class', 'Order', 'Family', 'Genus', 'Species']
+# dataset[taxonomic_levels] = qiime_reads['Taxonomy'].str.split(';', expand=True)
+# dataset.drop('Taxonomy', axis=1, inplace=True)
 
-# Delete the taxonomical levels from the names (k__Bacteria --> Bacteria)
-def delete_prefix(name):
-    '''Deletes the taxonomical prefix in classifications
-    k_Bacteria --> Bacteria'''
-    if name:
-        return re.sub('.{1}__', '', name)
+# # Delete the taxonomical levels from the names (k__Bacteria --> Bacteria)
+# def delete_prefix(name):
+#     '''Deletes the taxonomical prefix in classifications
+#     k_Bacteria --> Bacteria'''
+#     if name:
+#         return re.sub('.{1}__', '', name)
 
-# Take away things following _ (Akkermansia muciniphila_D_776786 --> Akkermansia muciniphila)
-def extract_name(name):
-    '''Deletes all characters following _
-    Akkermansia muciniphila_D_776786 --> Akkermansia muciniphila'''
-    if type(name) == str:
-        return re.sub(r'_.*', '', name)
+# # Take away things following _ (Akkermansia muciniphila_D_776786 --> Akkermansia muciniphila)
+# def extract_name(name):
+#     '''Deletes all characters following _
+#     Akkermansia muciniphila_D_776786 --> Akkermansia muciniphila'''
+#     if type(name) == str:
+#         return re.sub(r'_.*', '', name)
 
-# Delete the genus name from the species column
-dataset[['Genus1', 'Species_new']] = dataset['Species'].str.split(expand=True)
-dataset.drop('Genus1', inplace=True, axis=1)
-dataset.drop('Species', inplace=True, axis=1)
-dataset.rename(columns={'Species_new':'Species'}, inplace=True)
+# # Delete the genus name from the species column
+# dataset[['Genus1', 'Species_new']] = dataset['Species'].str.split(expand=True)
+# dataset.drop('Genus1', inplace=True, axis=1)
+# dataset.drop('Species', inplace=True, axis=1)
+# dataset.rename(columns={'Species_new':'Species'}, inplace=True)
 
-# Loop through all classifications
-for row in range(len(dataset)):
-    for column in range(len(taxonomic_levels)):
-        name = dataset.iloc[row, column]
-        temp = delete_prefix(name)
-        dataset.iloc[row, column] = extract_name(temp)
-    dataset.iloc[row, 1:column] = dataset.iloc[row, 1:column].str.replace(' ', '')
+# # Loop through all classifications
+# for row in range(len(dataset)):
+#     for column in range(len(taxonomic_levels)):
+#         name = dataset.iloc[row, column]
+#         temp = delete_prefix(name)
+#         dataset.iloc[row, column] = extract_name(temp)
+#     dataset.iloc[row, 1:column] = dataset.iloc[row, 1:column].str.replace(' ', '')
 
-dataset.to_csv(output_taxonomy)
+# dataset.to_csv(output_taxonomy)

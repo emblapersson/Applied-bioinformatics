@@ -11,17 +11,26 @@
 # ------------------------------------------------------------------------------------------------------
 
 # TO BE SPECIFIED
-SEQUENCE_MAP=/Users/claranordquist/Documents/Universitetet/HT24/Tillämpad_bioinformatik/Applied-bioinformatics/05_Plot_the_results/01_Data
-OUTPUT_FILE=/Users/claranordquist/Documents/Universitetet/HT24/Tillämpad_bioinformatik/Applied-bioinformatics/05_Plot_the_results/01_Data/Collected.tsv
+INPUT_FOLDER=/Users/claranordquist/Documents/Universitetet/HT24/Tillämpad_bioinformatik/Applied-bioinformatics/04_Taxonomic_assignment/03_Results/Fasta_short_reads
+TEMP_ZIP_FOLDER=/Users/claranordquist/Documents/Universitetet/HT24/Tillämpad_bioinformatik/Applied-bioinformatics/05_Plot_the_results/00_Temp_zip_folder
+OUTPUT_FILE=/Users/claranordquist/Documents/Universitetet/HT24/Tillämpad_bioinformatik/Applied-bioinformatics/05_Plot_the_results/01_Data/Fasta_short_reads/Fasta_short_reads.tsv
 
 # ------------------------------------------------------------------------------------------------------
 
 # Add the file header to the top of the output file
 echo "Feature ID    Taxon   Confidence" > $OUTPUT_FILE
 
-# Collect the sequences from each tsv file
-for SEQ in $SEQUENCE_MAP/*.tsv
+for FILE in $(ls $INPUT_FOLDER)
 do
-    sed -n '1,2d;p' $SEQ >> $OUTPUT_FILE
-    echo -en '\n' >> $OUTPUT_FILE
+    NAME=$(basename -s .qzv $FILE)
+    cp $INPUT_FOLDER/${NAME}.qzv $TEMP_ZIP_FOLDER/${NAME}.zip
+
+    UNZIPPED_NAME=$(unzip -Z -1 $TEMP_ZIP_FOLDER/${NAME}.zip | head -1 | sed 's/VERSION//')
+    
+    cd $TEMP_ZIP_FOLDER
+    unzip -q $TEMP_ZIP_FOLDER/${NAME}.zip
+    cd $UNZIPPED_NAME
+    echo $(cat data/metadata.tsv | sed -n '1,2d;p') >> $OUTPUT_FILE
 done
+
+rm -r $TEMP_ZIP_FOLDER/*

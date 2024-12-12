@@ -1,0 +1,46 @@
+Feature ID    Taxon   Confidence
+NR_025423.1 d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Enterobacterales_A_737866; f__Pasteurellaceae; g__Haemophilus_D_735815; s__Haemophilus_D_735815 pittmaniae 0.9419288621738469
+NR_171541.1 d__Bacteria; p__Actinobacteriota; c__Actinomycetia; o__Actinomycetales; f__Bifidobacteriaceae; g__Bifidobacterium_388775; s__Bifidobacterium leopoldii 0.8843296816828059
+NZ_ABES01000007.1 d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Enterobacterales_A_737866; f__Enterobacteriaceae_A; g__Buchnera 0.7954805656241278
+NZ_ADEF01000068.1 Unassigned 0.7463075785100391
+NZ_AFIJ01000031.1 d__Bacteria 0.9382640174721939
+NZ_AMZK01000007.1 d__Bacteria; p__Firmicutes_D; c__Bacilli; o__Lactobacillales; f__Aerococcaceae; g__Aerococcus; s__Aerococcus christensenii 0.9997847232399342
+NZ_CABTXI010000220.1 d__Bacteria 0.8926221185998506
+NZ_CAXUJS010000060.1 d__Bacteria 0.8935172980818514
+NZ_FNWT01000022.1 d__Bacteria 0.8950012191521934
+NZ_GG666064.1 d__Bacteria 0.9180004070751222
+NZ_GG666315.1 d__Bacteria 0.9703854368645098
+NZ_GL878522.1 d__Bacteria 0.9946498227589481
+NZ_JAERMS010000083.1 d__Bacteria 0.8658228660221582
+NZ_JAJCRT010000018.1 d__Bacteria 0.8399723156447731
+NZ_JAJDKT010000074.1 d__Bacteria; p__Firmicutes_A; c__Clostridia_258483; o__Lachnospirales; f__Defluviitaleaceae; g__Defluviitalea_A; s__Defluviitalea_A phaphyphila 0.7678105725748208
+NZ_JANDZW010000012.1 d__Bacteria; p__Firmicutes_A; c__Clostridia_258483; o__Tissierellales; f__Peptoniphilaceae; g__Parvimonas; s__Parvimonas micra 0.9999815114774586
+NZ_JASOME010000020.1 d__Bacteria 0.9509228513456105
+NZ_JASOSB010000012.1 d__Bacteria; p__Firmicutes_A; c__Clostridia_258483; o__Tissierellales; f__Peptoniphilaceae; g__Peptoniphilus_A 0.9999999552465009
+NZ_JASSPP010000023.1 d__Bacteria; p__Firmicutes_A; c__Clostridia_258483; o__Lachnospirales; f__Defluviitaleaceae; g__Defluviitalea_A; s__Defluviitalea_A phaphyphila 0.7612111227198068
+NZ_JAVTXF010000046.1 d__Bacteria 0.9771786633815702
+NZ_JAWWWY010000070.1 d__Bacteria 0.8776911426475721
+NZ_JAWWXF010000042.1 Unassigned 0.8323518448996352
+NZ_JAWWYB010000046.1 Unassigned 0.835922495818726
+NZ_JBBNGY010000024.1 d__Bacteria; p__Firmicutes_A; c__Clostridia_258483; o__Tissierellales; f__Peptoniphilaceae; g__Peptoniphilus_A 0.9999999975825894
+NZ_JBGONE010000038.1 d__Bacteria; p__Fusobacteriota; c__Fusobacteriia; o__Fusobacteriales_993521; f__Fusobacteriaceae_993521; g__Fusobacterium_C 0.9999997103058125
+NZ_JBHLSP010000031.1 d__Bacteria 0.9499128259161718
+NZ_JBIWIT010000029.1 d__Bacteria; p__Firmicutes_A; c__Clostridia_258483; o__Lachnospirales; f__Defluviitaleaceae; g__Defluviitalea_A; s__Defluviitalea_A phaphyphila 0.8004328633721568
+NZ_JRNR01000257.1 d__Bacteria 0.9091301565122685
+NZ_JRNT01000025.1 d__Bacteria 0.9582155580253998
+NZ_JRNU01000149.1 d__Bacteria 0.8551719771484811
+NZ_KE952952.1 Unassigned 0.811430242559104
+NZ_KI518418.1 d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Enterobacterales_A_737866; f__Enterobacteriaceae_A; g__Buchnera 0.8534301019139988
+NZ_KQ955743.1 Unassigned 0.7419052411072686
+NZ_KQ961074.1 d__Bacteria 0.8276661451838538
+NZ_KQ971204.1 d__Bacteria 0.9128102885371882
+NZ_KV803777.1 d__Bacteria; p__Firmicutes_A; c__Clostridia_258483; o__Tissierellales; f__Peptoniphilaceae; g__Anaerococcus; s__Anaerococcus vaginalis 0.9708499255391493
+NZ_NFMF01000018.1 d__Bacteria 0.8813438773243634
+NZ_NQOJ01000020.1 d__Bacteria; p__Actinobacteriota; c__Actinomycetia; o__Actinomycetales; f__Bifidobacteriaceae; g__Bifidobacterium_388775; s__Bifidobacterium vaginale 0.9852118883903357
+NZ_PNGO01000009.1 d__Bacteria; p__Firmicutes_D; c__Bacilli; o__Lactobacillales; f__Lactobacillaceae; g__Lactobacillus; s__Lactobacillus iners 0.9465735442564274
+NZ_QJVB01000008.1 d__Bacteria 0.9063800994921494
+NZ_QPGS01000077.1 d__Bacteria 0.8603619669744531
+NZ_QSQE01000022.1 d__Bacteria 0.8312456394714338
+NZ_VYVJ01000030.1 d__Bacteria 0.8809064347907736
+NZ_WBMB01000033.1 d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Enterobacterales_A_737866; f__Pasteurellaceae; g__Haemophilus_D_735815 0.9965231949707767
+NZ_WUBT01000032.1 d__Bacteria 0.9421832041100021
