@@ -1,0 +1,64 @@
+#!/bin/bash -l
+#SBATCH -A uppmax2024-2-7
+#SBATCH -M snowy
+#SBATCH -p core
+#SBATCH -n 2
+#SBATCH -t 04:00:00
+#SBATCH -J taxonomic_script_illumina_002
+#SBATCH -e error_taxonomic_illumina_single
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user emblap@hotmail.se
+#SBATCH --output=taxonomic_output_illumina_single
+
+# Load modules
+module load bioinfo-tools
+module load qiime2/2024.10
+
+# Commands
+
+#Denoising - change to values based on the quality plots
+qiime dada2 denoise-paired \
+  --i-demultiplexed-seqs 02_Output_data/demultiplexed-sequences_illumina_single.qza \
+  --p-trunc-len-f 266 \
+  --p-trunc-len-r 227 \
+  --p-chimera-method consensus \
+  --o-representative-sequences 02_Output_data/asv-sequences-illumina_single.qza \
+  --o-table 02_Output_data/feature-table-illumina_single.qza \
+  --o-denoising-stats 02_Output_data/dada2-stats_illumina_single.qza
+
+#Reviewing run statistics
+qiime metadata tabulate \
+  --m-input-file 02_Output_data/dada2-stats_illumina_single.qza \
+  --o-visualization 03_Results/dada2-stats_illumina_single-summ.qzv
+
+#Summaries of feature data and feature table
+qiime feature-table summarize \
+  --i-table 02_Output_data/feature-table-illumina_single.qza \
+  --m-sample-metadata-file 01_Input_data/metadata_illumina_single.tsv \
+  --o-visualization 03_Results/feature-table-illumina_single-summ.qzv
+qiime feature-table tabulate-seqs \
+  --i-data 02_Output_data/asv-sequences-illumina_single.qza \
+  --o-visualization 03_Results/asv-sequences-illumina_single-summ.qzv
+
+#Filtering?
+
+#Taxonomy assignment - change the link & double check the read link
+wget \
+  -O '16S-nb-silva-classifier.qza' \
+  'https://data.qiime2.org/classifiers/sklearn-1.4.2/silva/silva-138-99-nb-classifier.qza'
+
+qiime feature-classifier classify-sklearn \
+  --i-classifier 16S-nb-silva-classifier.qza \
+  --i-reads 02_Output_data/asv-sequences-illumina_single.qza  \
+  --o-classification 02_Output_data/taxonomy_illumina_single_silva.qza
+
+qiime metadata tabulate \
+  --m-input-file 02_Output_data/taxonomy_illumina_single_silva.qza \
+  --o-visualization 03_Results/taxonomy_illumina_single_silva.qzv
+
+#Taxonomic composition barplots - metadata?
+qiime taxa barplot \
+  --i-table 02_Output_data/feature-table-illumina_single.qza \
+  --i-taxonomy 02_Output_data/taxonomy_illumina_single_silva.qza \
+  --m-metadata-file 01_Input_data/metadata_illumina_single.tsv \
+  --o-visualization 03_Results/taxa-bar-plots-illumina_single_silva.qzv

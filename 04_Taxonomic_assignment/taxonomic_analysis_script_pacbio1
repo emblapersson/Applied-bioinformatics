@@ -1,0 +1,64 @@
+#!/bin/bash -l
+#SBATCH -A uppmax2024-2-7
+#SBATCH -M snowy
+#SBATCH -p core
+#SBATCH -n 2
+#SBATCH -t 04:00:00
+#SBATCH -J taxonomic_script_pacbio_001
+#SBATCH -e error_taxonomic_pacbio1
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user emblap@hotmail.se
+#SBATCH --output=taxonomic_output_pacbio
+
+# Load modules
+module load bioinfo-tools
+module load qiime2/2024.10
+
+# Commands
+
+#Denoising - change to values based on the quality plots
+qiime dada2 denoise-single \
+  --i-demultiplexed-seqs 02_Output_data/demultiplexed-sequences_pacbio1.qza \
+  --p-max-ee 2 \
+  --p-trunc-len 1300 \
+  --p-chimera-method consensus \
+  --o-representative-sequences 02_Output_data/asv-sequences-pacbio1.qza \
+  --o-table 02_Output_data/feature-table-pacbio1.qza \
+  --o-denoising-stats 02_Output_data/dada2-stats_pacbio1.qza
+
+#Reviewing run statistics
+qiime metadata tabulate \
+  --m-input-file 02_Output_data/dada2-stats_pacbio1.qza \
+  --o-visualization 03_Results/dada2-stats-pacbio1-summ.qzv
+
+#Summaries of feature data and feature table
+qiime feature-table summarize \
+  --i-table 02_Output_data/feature-table-pacbio1.qza \
+  --m-sample-metadata-file 01_Input_data/metadata_pacbio1.tsv \
+  --o-visualization 03_Results/feature-table-pacbio1-summ.qzv
+qiime feature-table tabulate-seqs \
+  --i-data 02_Output_data/asv-sequences-pacbio1.qza \
+  --o-visualization 03_Results/asv-sequences-pacbio1-summ.qzv
+
+#Filtering?
+
+#Taxonomy assignment - change the link & double check the read link
+wget \
+  -O '16S-nb-classifier.qza' \
+  'https://data.qiime2.org/classifiers/sklearn-1.4.2/greengenes2/2022.10.backbone.full-length.nb.sklearn-1.4.2.qza'
+
+qiime feature-classifier classify-sklearn \
+  --i-classifier 16S-nb-classifier.qza \
+  --i-reads 02_Output_data/asv-sequences-pacbio1.qza  \
+  --o-classification 02_Output_data/taxonomy_pacbio1.qza
+
+qiime metadata tabulate \
+  --m-input-file 02_Output_data/taxonomy_pacbio1.qza \
+  --o-visualization 03_Results/taxonomy_pacbio1.qzv
+
+#Taxonomic composition barplots - metadata?
+qiime taxa barplot \
+  --i-table 02_Output_data/feature-table-pacbio1.qza \
+  --i-taxonomy 02_Output_data/taxonomy_pacbio1.qza \
+  --m-metadata-file 01_Input_data/metadata_pacbio1.tsv \
+  --o-visualization 03_Results/taxa-bar-plots-pacbio1.qzv
