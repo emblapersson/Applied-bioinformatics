@@ -9,7 +9,7 @@ Sample information:
 Folder structure:
 - 01_Input_data:
         - A manifest file containing the sample id, absolute file path and direction of sequencing
-        - Metadata containing the sample id, the simulated platforn, strategy, source, layout and composition of each sample
+        - Metadata containing the sample id (corresponding to the sequence id), the simulated platforn, strategy, source and layout of each sample
         
 - 02_Output_data
         - A qza file containing the sequencing data
