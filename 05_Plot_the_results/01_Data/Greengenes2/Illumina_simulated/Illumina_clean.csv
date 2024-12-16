@@ -27,7 +27,7 @@ NZ_JBGONE010000038.1,d__Bacteria;p__Fusobacteriota;c__Fusobacteriia;o__Fusobacte
 NZ_JBHLSP010000031.1,d__Bacteria;__;__;__;__;__;__
 NZ_JBIWIT010000029.1,d__Bacteria;__;__;__;__;__;__
 NZ_JRNR01000257.1,d__Bacteria;__;__;__;__;__;__
-NZ_JRNT01000025.1,Platform
+NZ_JRNT01000025.1,
 NZ_JRNU01000149.1,d__Bacteria;__;__;__;__;__;__
 NZ_KE952952.1,Unassigned;__;__;__;__;__;__
 NZ_KI518418.1,d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacterales_A_737866;f__Enterobacteriaceae_A;g__Buchnera;__
@@ -42,5 +42,5 @@ NZ_QSQE01000022.1,Unassigned;__;__;__;__;__;__
 NZ_VYVJ01000030.1,d__Bacteria;__;__;__;__;__;__
 NZ_WBMB01000033.1,d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacterales_A_737866;f__Pasteurellaceae;g__Haemophilus_D_735815;__
 NZ_WUBT01000032.1,d__Bacteria;__;__;__;__;__;__
-NZ_QPGS01000077.1,Platform
-NZ_PNGO01000009.1,Platform
+NZ_QPGS01000077.1,
+NZ_PNGO01000009.1,

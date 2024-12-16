@@ -7,55 +7,68 @@
 # - output_taxonomy: The same taxonomy, but outputed in a format that can be plotted
 
 # ------------------------------------------------------------------------------------------------------
-
 # TO BE SPECIFIED
-qiime_taxonomy = '/Users/claranordquist/Documents/Universitetet/HT24/Tillämpad_bioinformatik/Applied-bioinformatics/05_Plot_the_results/01_Data/Fasta_short_reads/Fasta_short_reads.tsv'
-output_taxonomy = '/Users/claranordquist/Documents/Universitetet/HT24/Tillämpad_bioinformatik/Applied-bioinformatics/05_Plot_the_results/01_Data/Illumina_names_fixed.csv'
+qiime_taxonomy = '/Users/claranordquist/Documents/Universitetet/HT24/Tillämpad_bioinformatik/Applied-bioinformatics/05_Plot_the_results/01_Data/Fasta_long_reads/Fasta_long_reads.tsv'
+output_taxonomy = '/Users/claranordquist/Documents/Universitetet/HT24/Tillämpad_bioinformatik/Applied-bioinformatics/05_Plot_the_results/01_Data/Fasta_long_reads/Fasta_long_reads_fixed.csv'
+
+# ------------------------------------------------------------------------------------------------------
+# Import packages
+import pandas as pd
+import numpy as np
+import regex as re
+
+# ------------------------------------------------------------------------------------------------------
+# Functions
+# Delete the taxonomical levels from the names (k__Bacteria --> Bacteria)
+def delete_prefix(name):
+    '''Deletes the taxonomical prefix in classifications
+    k_Bacteria --> Bacteria'''
+    if type(name) == str:
+        return re.sub('.{1}__', '', name)
+
+# Take away things following _ (Akkermansia muciniphila_D_776786 --> Akkermansia muciniphila)
+def extract_name(name):
+    '''Deletes all characters following _
+    Akkermansia muciniphila_D_776786 --> Akkermansia muciniphila'''
+    if type(name) == str:
+        return re.sub(r'_.*', '', name)
 
 # ------------------------------------------------------------------------------------------------------
 
-# Import packages
-import pandas as pd
-import regex as re
-
 # Read the input data
-# Might need skiprows = [1]
-qiime_reads = pd.read_csv(qiime_taxonomy, index_col='index')
-dataset = qiime_reads.copy(deep=True)
-print(qiime_reads)
+# If there is a header in the tsv file, we need skiprows=1 (if one line)
+qiime_reads = pd.read_csv(qiime_taxonomy, sep=' ', skiprows=1, header=None)
+qiime_reads.columns = ['Feature ID', 'Kingdom', 'Phylum', 'Class', 'Order', 'Family', 'Genus', 'Genus1', 'Species', 'Confidence']
+qiime_reads.set_index('Feature ID', inplace=True)
+qiime_reads.drop('Genus1', axis=1, inplace=True)
 
-# Divide the column "taxon" into the taxonomical levels
-# Delete the original "taxon" column
-# taxonomic_levels = ['Kingdom', 'Phylum', 'Class', 'Order', 'Family', 'Genus', 'Species']
-# dataset[taxonomic_levels] = qiime_reads['Taxonomy'].str.split(';', expand=True)
-# dataset.drop('Taxonomy', axis=1, inplace=True)
+# To find misplaced confidence values
+# Loop through all columns except the first (Kingdom) and last two (Confidence and Species)
+# For each row in each column, check if there is "__" in the name and the name isn't NaN
+# If so, it is a confidence value. Move it to the last column
+for column in qiime_reads.columns[1:-2]:
+    for row in qiime_reads.index:
+        value = qiime_reads.loc[row, column]
+        # Check if value is a string before searching for '__'
+        if isinstance(value, str) and '__' not in value:
+            qiime_reads.loc[row, 'Confidence'] = value
+            qiime_reads.loc[row, column] = np.NaN
 
-# # Delete the taxonomical levels from the names (k__Bacteria --> Bacteria)
-# def delete_prefix(name):
-#     '''Deletes the taxonomical prefix in classifications
-#     k_Bacteria --> Bacteria'''
-#     if name:
-#         return re.sub('.{1}__', '', name)
+# Take away all ";" and extra spaces
+for column in qiime_reads.columns[:-1]:
+    for row in qiime_reads.index:
+        value = qiime_reads.loc[row, column]
+        if isinstance(value, str):
+            qiime_reads.loc[row, column] = value.replace(';', '').strip()
 
-# # Take away things following _ (Akkermansia muciniphila_D_776786 --> Akkermansia muciniphila)
-# def extract_name(name):
-#     '''Deletes all characters following _
-#     Akkermansia muciniphila_D_776786 --> Akkermansia muciniphila'''
-#     if type(name) == str:
-#         return re.sub(r'_.*', '', name)
+# Convert all confidence values from strings to floats
+qiime_reads['Confidence'] = qiime_reads['Confidence'].apply(lambda x: float(x))
 
-# # Delete the genus name from the species column
-# dataset[['Genus1', 'Species_new']] = dataset['Species'].str.split(expand=True)
-# dataset.drop('Genus1', inplace=True, axis=1)
-# dataset.drop('Species', inplace=True, axis=1)
-# dataset.rename(columns={'Species_new':'Species'}, inplace=True)
+# Delete prefix and extract the names from each cell
+for column in qiime_reads.columns[:-1]:
+    for row in qiime_reads.index:
+        value = delete_prefix(qiime_reads.loc[row, column])
+        name = extract_name(value)
+        qiime_reads.loc[row, column] = name
 
-# # Loop through all classifications
-# for row in range(len(dataset)):
-#     for column in range(len(taxonomic_levels)):
-#         name = dataset.iloc[row, column]
-#         temp = delete_prefix(name)
-#         dataset.iloc[row, column] = extract_name(temp)
-#     dataset.iloc[row, 1:column] = dataset.iloc[row, 1:column].str.replace(' ', '')
-
-# dataset.to_csv(output_taxonomy)
+qiime_reads.to_csv(output_taxonomy)
