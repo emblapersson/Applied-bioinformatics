@@ -24,6 +24,7 @@ echo "Feature ID    Taxon   Confidence" > $OUTPUT_FILE
 
 # Loop over the files in the input folder
 # Extract the file name, convert to zip, unzip, collect metadata file, save its content in OUTPUT_FILE
+# The sed expression might have to be adapted to the specific dataset
 for FILE in $(ls $INPUT_FOLDER)
 do
     NAME=$(basename -s .qzv $FILE)
