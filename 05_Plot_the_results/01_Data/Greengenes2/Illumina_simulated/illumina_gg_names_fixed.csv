@@ -1,6 +1,6 @@
 index,Kingdom,Phylum,Class,Order,Family,Genus,Species
-NR_025423.1,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Pasteurellaceae,Haemophilus,pittmaniae
-NR_171541.1,Bacteria,Actinobacteriota,Actinomycetia,Actinomycetales,Bifidobacteriaceae,Bifidobacterium,leopoldii
+NR_025423.1,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Pasteurellaceae,Haemophilus,Haemophilus
+NR_171541.1,Bacteria,Actinobacteriota,Actinomycetia,Actinomycetales,Bifidobacteriaceae,Bifidobacterium,Bifidobacterium leopoldii
 NZ_ABES01000007.1,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Buchnera,
 NZ_ADEF01000068.1,Bacteria,,,,,,
 NZ_AFIJ01000031.1,Bacteria,,,,,,
@@ -13,7 +13,7 @@ NZ_GG666315.1,Bacteria,,,,,,
 NZ_GL878522.1,Bacteria,,,,,,
 NZ_JAERMS010000083.1,Unassigned,,,,,,
 NZ_JAJCRT010000018.1,Bacteria,,,,,,
-NZ_JAJDKT010000074.1,Bacteria,Firmicutes,Clostridia,Lachnospirales,Defluviitaleaceae,Defluviitalea,phaphyphila
+NZ_JAJDKT010000074.1,Bacteria,Firmicutes,Clostridia,Lachnospirales,Defluviitaleaceae,Defluviitalea,Defluviitalea
 NZ_JANDZW010000012.1,Bacteria,,,,,,
 NZ_JASOME010000020.1,Bacteria,,,,,,
 NZ_JASOSB010000012.1,Bacteria,,,,,,
@@ -34,7 +34,7 @@ NZ_KI518418.1,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enter
 NZ_KQ955743.1,Unassigned,,,,,,
 NZ_KQ961074.1,Bacteria,,,,,,
 NZ_KQ971204.1,Bacteria,,,,,,
-NZ_KV803777.1,Bacteria,Firmicutes,Clostridia,Tissierellales,Peptoniphilaceae,Anaerococcus,vaginalis
+NZ_KV803777.1,Bacteria,Firmicutes,Clostridia,Tissierellales,Peptoniphilaceae,Anaerococcus,Anaerococcus vaginalis
 NZ_NFMF01000018.1,Bacteria,,,,,,
 NZ_NQOJ01000020.1,Bacteria,,,,,,
 NZ_QJVB01000008.1,Bacteria,,,,,,
