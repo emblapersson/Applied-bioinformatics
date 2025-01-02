@@ -13,9 +13,9 @@
 # ------------------------------------------------------------------------------------------------------
 
 # TO BE SPECIFIED
-INPUT_FOLDER=/Users/claranordquist/Documents/Universitetet/HT24/Tillämpad_bioinformatik/Applied-bioinformatics/04_Taxonomic_assignment/03_Results/fasta_pacbio_silva
+INPUT_FOLDER=/Users/claranordquist/Documents/Universitetet/HT24/Tillämpad_bioinformatik/Applied-bioinformatics/04_Taxonomic_assignment/03_Results/fasta_illumina_new
 TEMP_ZIP_FOLDER=/Users/claranordquist/Documents/Universitetet/HT24/Tillämpad_bioinformatik/Applied-bioinformatics/05_Plot_the_results/00_Temp_zip_folder
-OUTPUT_FILE=/Users/claranordquist/Documents/Universitetet/HT24/Tillämpad_bioinformatik/Applied-bioinformatics/05_Plot_the_results/01_Data/Silva/Fasta_long_reads/Fasta_long_reads.tsv
+OUTPUT_FILE=/Users/claranordquist/Documents/Universitetet/HT24/Tillämpad_bioinformatik/Applied-bioinformatics/05_Plot_the_results/01_Data/Short_classifier/Fasta_short_reads.tsv
 
 # ------------------------------------------------------------------------------------------------------
 
@@ -30,7 +30,7 @@ do
     NAME=$(basename -s .qzv $FILE)
     cp $INPUT_FOLDER/${NAME}.qzv $TEMP_ZIP_FOLDER/${NAME}.zip
 
-    UNZIPPED_NAME=$(unzip -Z -1 $TEMP_ZIP_FOLDER/${NAME}.zip | head -1 | sed 's/checksums.md5//')
+    UNZIPPED_NAME=$(unzip -Z -1 $TEMP_ZIP_FOLDER/${NAME}.zip | head -1 | sed 's/VERSION//')
     
     cd $TEMP_ZIP_FOLDER
     unzip -q ${NAME}.zip
