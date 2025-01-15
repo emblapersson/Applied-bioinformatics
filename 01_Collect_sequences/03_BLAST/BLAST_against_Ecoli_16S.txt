@@ -1,0 +1,1155 @@
+RID: SC8TCXAZ114	
+Job Title: pdb|9GTV|A Chain A, 16S ribosomal RNA 				
+Program: BLASTN 
+			            
+Subject #1:NZ_JBIWIT010000029.1 Aerococcus viridans strain NPDC093603 NPDC093603_178_D2.ctg-0031, whole genome shotgun sequence ID: lcl|Query_625236 Length: 1646
+Subject #2:NZ_AMZK01000007.1 Aerococcus christensenii DSM 15819 = CCUG 28831 strain DSM 15819 contig_cov_167.819351, whole genome shotgun sequence ID: lcl|Query_625237 Length: 1607
+Subject #3:NZ_KQ955743.1 Alloscardovia omnicolens strain CMW7705A Scaffold118, whole genome shotgun sequence ID: lcl|Query_625238 Length: 1559
+Subject #4:NZ_KV803777.1 Anaerococcus sp. HMSC068A02 Scaffold270, whole genome shotgun sequence ID: lcl|Query_625239 Length: 1596
+Subject #5:NZ_GG666064.1 Anaerococcus lactolyticus ATCC 51172 SCAFFOLD21, whole genome shotgun sequence ID: lcl|Query_625240 Length: 1481
+Subject #6:NZ_GG666315.1 Anaerococcus tetradius ATCC 35098 SCAFFOLD21, whole genome shotgun sequence ID: lcl|Query_625241 Length: 1554
+Subject #7:NZ_KE952952.1 Atopobium sp. oral taxon 810 str. F0209 Scaffold33, whole genome shotgun sequence ID: lcl|Query_625242 Length: 1594
+Subject #8:NZ_QSQE01000022.1 Bifidobacterium bifidum strain TM02-17 TM02-17.Scaf22, whole genome shotgun sequence ID: lcl|Query_625243 Length: 1559
+Subject #9:NZ_JAWWYB010000046.1 Bifidobacterium breve strain FZJHZD20M12 Scaffold50, whole genome shotgun sequence ID: lcl|Query_625244 Length: 1468
+Subject #10:NZ_JAJCRT010000018.1 Dialister invisus strain SL.1.06 PMHNNIIG_18, whole genome shotgun sequence ID: lcl|Query_625245 Length: 1575
+Subject #11:NZ_GL878522.1 Dialister micraerophilus DSM 19965 SCAFFOLD4, whole genome shotgun sequence ID: lcl|Query_625246 Length: 1462
+Subject #12:NZ_KQ961074.1 Fannyhessea vaginae strain CMW7778A Scaffold94, whole genome shotgun sequence ID: lcl|Query_625247 Length: 1452
+Subject #13:NZ_JAJDKT010000074.1 Fusobacterium ulcerans strain DFI.2.86 MHFABIGE_75, whole genome shotgun sequence ID: lcl|Query_625248 Length: 1479
+Subject #14:NZ_JBGONE010000038.1 Fusobacterium animalis strain Fn33kaz assembly_contig_38, whole genome shotgun sequence ID: lcl|Query_625249 Length: 1596
+Subject #15:NZ_KI518418.1 Fusobacterium nucleatum CTI-2 addTD-supercont1.18, whole genome shotgun sequence ID: lcl|Query_625250 Length: 1624
+Subject #16:NZ_NQOJ01000020.1 Gardnerella vaginalis strain NR039 C2207, whole genome shotgun sequence ID: lcl|Query_625251 Length: 1485
+Subject #17:NR_171541.1 Gardnerella leopoldii strain UGent06.41 16S ribosomal RNA, partial sequence ID: lcl|Query_625252 Length: 1524
+Subject #18:NZ_QJVB01000008.1 Gardnerella swidsinskii strain GS 9838-1 NODE_8_length_1499_cov_449.200437, whole genome shotgun sequence ID: lcl|Query_625253 Length: 1499
+Subject #19:NZ_JASOME010000020.1 Gardnerella vaginalis strain UMB6789 NODE_20_length_1519_cov_43.418169, whole genome shotgun sequence ID: lcl|Query_625254 Length: 1519
+Subject #20:NZ_WBMB01000033.1 Haemophilus parainfluenzae strain LC_1315_18 NODE_33_length_1456_cov_2584.929659, whole genome shotgun sequence ID: lcl|Query_625255 Length: 1456
+Subject #21:NR_025423.1 Haemophilus pittmaniae strain HK85 16S ribosomal RNA, partial sequence ID: lcl|Query_625256 Length: 1468
+Subject #22:NZ_ADEF01000068.1 Hoylesella timonensis CRIS 5C-B1 contig00004, whole genome shotgun sequence ID: lcl|Query_625257 Length: 1605
+Subject #23:NZ_WUBT01000032.1 Lactobacillus crispatus strain BC5 scaffold32.1, whole genome shotgun sequence ID: lcl|Query_625258 Length: 1606
+Subject #24:NZ_JADCKH010000039.1 Lactobacillus crispatus strain DSM 108970 seq39, whole genome shotgun sequence ID: lcl|Query_625259 Length: 1451
+Subject #25:NZ_JAWWWY010000070.1 Lactobacillus gasseri strain UMB6820 NODE_70_length_1558_cov_458.206617, whole genome shotgun sequence ID: lcl|Query_625260 Length: 1558
+Subject #26:NZ_PNGO01000009.1 Lactobacillus iners strain UMB1051 .21837_8_56.9, whole genome shotgun sequence ID: lcl|Query_625261 Length: 1595
+Subject #27:NZ_JAWWXF010000042.1 Lactobacillus jensenii strain UMB3466 NODE_42_length_1507_cov_47.722378, whole genome shotgun sequence ID: lcl|Query_625262 Length: 1507
+Subject #28:NZ_JAVTXF010000046.1 Lactobacillus mulieris strain UMB0446 NODE_46_length_1460_cov_77.385765, whole genome shotgun sequence ID: lcl|Query_625263 Length: 1460
+Subject #29:NZ_CABTXI010000220.1 MAG: uncultured Megasphaera sp. isolate MGYG-HGUT-03747, whole genome shotgun sequence ID: lcl|Query_625264 Length: 1604
+Subject #30:NZ_NFMF01000018.1 Megasphaera hutchinsoni strain KA00229 Contig_20_consensus_sequence, whole genome shotgun sequence ID: lcl|Query_625265 Length: 1502
+Subject #31:NZ_AFIJ01000031.1 Megasphaera lornae strain UPII 199-6 contig00036, whole genome shotgun sequence ID: lcl|Query_625266 Length: 1521
+Subject #32:NZ_FNWT01000022.1 Parafannyhessea umbonata strain WCP15, whole genome shotgun sequence ID: lcl|Query_625267 Length: 1451
+Subject #33:NZ_JANDZW010000012.1 Parvimonas micra strain PM94KC-G-1 PM94KC_G_1.12, whole genome shotgun sequence ID: lcl|Query_625268 Length: 1604
+Subject #34:NZ_JASOSB010000012.1 Peptoniphilus harei strain UMB0065B NODE_12_length_1479_cov_441.346648, whole genome shotgun sequence ID: lcl|Query_625269 Length: 1479
+Subject #35:NZ_JBBNGY010000024.1 Peptoniphilus lacrimalis strain CLA-AA-H203 CLAAAH203_contig_24_length_1459, whole genome shotgun sequence ID: lcl|Query_625270 Length: 1459
+Subject #36:NZ_CAXUJS010000060.1 Peptostreptococcus anaerobius isolate CC00978 CC00978_60_NODE_60_length_1598_cov_367.350427, whole genome shotgun sequence ID: lcl|Query_625271 Length: 1598
+Subject #37:NZ_QPGS01000077.1 Porphyromonas gingivalis strain 381OKJP scaffold_77, whole genome shotgun sequence ID: lcl|Query_625272 Length: 1511
+Subject #38:NZ_JAERMS010000083.1 Prevotella illustrans strain A2931 NODE_83_length_1472_cov_177.978123, whole genome shotgun sequence ID: lcl|Query_625273 Length: 1472
+Subject #39:NZ_JRNU01000149.1 Prevotella amnii DNF00058 contig149, whole genome shotgun sequence ID: lcl|Query_625274 Length: 1465
+Subject #40:NZ_KQ971204.1 Prevotella bivia strain GED7760C Scaffold347, whole genome shotgun sequence ID: lcl|Query_625275 Length: 1633
+Subject #41:NZ_JRNR01000257.1 Prevotella disiens DNF00882 contig257, whole genome shotgun sequence ID: lcl|Query_625276 Length: 1489
+Subject #42:NZ_JASSPP010000023.1 Sneathia sanguinegens strain CCUG 42621 CCUG42621_contig_00035, whole genome shotgun sequence ID: lcl|Query_625277 Length: 1473
+Subject #43:NZ_JBHLSP010000031.1 Sneathia vaginalis strain WSU4 Contig_31_141.013, whole genome shotgun sequence ID: lcl|Query_625278 Length: 1510
+Subject #44:NZ_VYVJ01000030.1 Streptococcus anginosus strain UMB8710 NODE_30_length_1458_cov_25.802404, whole genome shotgun sequence ID: lcl|Query_625279 Length: 1458
+Subject #45:NZ_ABES01000007.1 Ureaplasma parvum serovar 1 str. ATCC 27813 gcontig_1106501367843, whole genome shotgun sequence ID: lcl|Query_625280 Length: 1486
+Subject #46:NZ_JRNT01000025.1 Veillonella montpellierensis DNF00314 contig25, whole genome shotgun sequence ID: lcl|Query_625281 Length: 1528
+	                    			
+Query #1: pdb|9GTV|A Chain A, 16S ribosomal RNA Query ID: lcl|Query_625234 Length: 1541
+
+Sequences producing significant alignments:
+                                                                  Scientific      Common                     Max    Total Query   E    Per.   Acc.                        
+Description                                                       Name            Name            Taxid      Score  Score cover Value  Ident  Len        Accession        
+NR_025423.1 Haemophilus pittmaniae strain HK85 16S ribosomal...                                   0          1766   1766  95%   0.0    88.27  1468       Query_625256     
+NZ_WBMB01000033.1 Haemophilus parainfluenzae strain LC_1315_18...                                 0          1040   1040  51%   0.0    90.41  1456       Query_625255     
+NZ_PNGO01000009.1 Lactobacillus iners strain UMB1051...                                           0          946    946   84%   0.0    79.80  1595       Query_625261     
+NZ_AMZK01000007.1 Aerococcus christensenii DSM 15819 = CCUG...                                    0          880    880   100%  0.0    77.20  1607       Query_625237     
+NR_171541.1 Gardnerella leopoldii strain UGent06.41 16S...                                        0          767    767   84%   0.0    77.44  1524       Query_625252     
+NZ_JBBNGY010000024.1 Peptoniphilus lacrimalis strain CLA-AA-H2...                                 0          765    765   76%   0.0    78.85  1459       Query_625270     
+NZ_NQOJ01000020.1 Gardnerella vaginalis strain NR039 C2207,...                                    0          726    726   84%   0.0    76.98  1485       Query_625251     
+NZ_JBGONE010000038.1 Fusobacterium animalis strain Fn33kaz...                                     0          702    702   84%   0.0    76.73  1596       Query_625249     
+NZ_JASOSB010000012.1 Peptoniphilus harei strain UMB0065B...                                       0          688    688   76%   0.0    77.71  1479       Query_625269     
+NZ_JANDZW010000012.1 Parvimonas micra strain PM94KC-G-1...                                        0          680    958   77%   0.0    79.89  1604       Query_625268     
+NZ_KV803777.1 Anaerococcus sp. HMSC068A02 Scaffold270, whole...                                   0          582    768   73%   4e-168 78.01  1596       Query_625239     
+
+
+Alignments:
+
+>NR_025423.1 Haemophilus pittmaniae strain HK85 16S ribosomal RNA, partial sequence
+Sequence ID: Query_625256 Length: 1468
+Range 1: 1 to 1468
+
+Score:1766 bits(956), Expect:0.0, 
+Identities:1302/1475(88%),  Gaps:14/1475(0%), Strand: Plus/Plus
+
+Query  25    CAGATTGAACGCTGGCGGCAGGCCTAACACATGCAAGTCGAACGGTAACAGGAAGAA-GC  83
+             ||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||
+Sbjct  1     CAGATTGAACGCTGGCGGCAGGCTTAACACATGCAAGTCGAACGGTAACAGGAAGAAAGC  60
+
+Query  84    TTGC-TTCTTTGCTGACGAGTGGCGGACGGGTGAGTAATGTCTGGGAAACTGCCTGATGG  142
+             |||| |||||||||||||||||||||||||||||||||||  |||| | ||| || ||||
+Sbjct  61    TTGCTTTCTTTGCTGACGAGTGGCGGACGGGTGAGTAATGCTTGGGTATCTGGCTTATGG  120
+
+Query  143   AGGGGGATAACTACTGGAAACGGTAGCTAATACCGCATAACGTCGCAAGACCAAAGAGGG  202
+             |||||||||||||| |||||| |||||||||||||| ||   ||| ||||  |||| | |
+Sbjct  121   AGGGGGATAACTACGGGAAACTGTAGCTAATACCGCGTAGTATCGGAAGATGAAAGTGTG  180
+
+Query  203   GTACCTTCGGGCCTCTTGCCATCGGATGTGCCCAGATGGGATTAGCTAGTAGGTGGGGTA  262
+             | ||| |  |||| | |||||| ||||| |||||  ||||||||| |||| |||| ||||
+Sbjct  181   GGACCGTAAGGCCACATGCCATAGGATGAGCCCAAGTGGGATTAGGTAGTTGGTGAGGTA  240
+
+Query  263   ACGGCTCACCTAGGCGACGATCCCTAGCTGGTCTGAGAGGATGACCAGCCACACTGGAAC  322
+             | |||||||| || |||||||| ||||||||||||||||||||||||||||||| || ||
+Sbjct  241   ATGGCTCACCAAGCCGACGATCTCTAGCTGGTCTGAGAGGATGACCAGCCACACCGGGAC  300
+
+Query  323   TGAGACACGGTCCAGACTCCTACGGGAGGCAGCAGTGGGGAATATTGCACAATGGGCGCA  382
+             |||||||||| || |||||||||||||||||||||||||||||||||| ||||||| |||
+Sbjct  301   TGAGACACGGCCCGGACTCCTACGGGAGGCAGCAGTGGGGAATATTGCGCAATGGGGGCA  360
+
+Query  383   AGCCTGATGCAGCCATGCCGCGTGTATGAAGAAGGCCTTCGGGTTGTAAAGTACTTTCAG  442
+             | ||||| |||||||||||||||| ||||||||||||||||||||||||||| ||||| |
+Sbjct  361   ACCCTGACGCAGCCATGCCGCGTGAATGAAGAAGGCCTTCGGGTTGTAAAGTTCTTTCGG  420
+
+Query  443   CGGGGAGGAAGGGAGTAAAGTTAATACCTTTGCTCATTGACGTTACCCGCAGAAGAAGCA  502
+               | |||||||| | | |  ||||||   | | | |||||||||| |  |||||||||||
+Sbjct  421   TAGCGAGGAAGGCATTTAGTTTAATAGACTAGATGATTGACGTTAACTACAGAAGAAGCA  480
+
+Query  503   CCGGCTAACTCCGNGCCAGCAGCCNCGGTAATACGGAGGGTGCAAGCGTTAATCGGAATT  562
+             ||||||||||||| |||||||||| |||||||||||||||||| ||||||||||||||| 
+Sbjct  481   CCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACGGAGGGTGCGAGCGTTAATCGGAATA  540
+
+Query  563   ACTGGGCGTAAAGCGCACGCAGGCGGTTTGTTAAGTCAGATGTGAAATCCCCGGGCTCAA  622
+             ||||||||||||| ||||||||||||  | |||||| || ||||||| ||||||||| ||
+Sbjct  541   ACTGGGCGTAAAGGGCACGCAGGCGGACTTTTAAGTGAGGTGTGAAAGCCCCGGGCTTAA  600
+
+Query  623   CCTGGGAACTGCATCTGATACTGGCAAGCTTGAGT-CTCGTAGAGGGGGGTAGAATTCCA  681
+             |||||||| ||||| | | ||||| |  || |||| ||  ||| | ||||||||||||||
+Sbjct  601   CCTGGGAATTGCATTTCAGACTGGGAGTCTAGAGTACT-TTAGGGAGGGGTAGAATTCCA  659
+
+Query  682   GGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAATACCGGTGGCGAAGGCGGCCCCCTG  741
+              ||||||||||||||||||||||||| |||||||||||||  ||||||||| ||||| ||
+Sbjct  660   CGTGTAGCGGTGAAATGCGTAGAGATGTGGAGGAATACCGAAGGCGAAGGCAGCCCCTTG  719
+
+Query  742   GACGAA-G-ACTGACGCTCAGGTGCGAAAGCGTGGGGAGCAAACAGGATTAGATACCCTG  799
+             |  ||| | ||||||||||| |||||||||||||||||||||||||||||||||||||||
+Sbjct  720   G--GAATGTACTGACGCTCATGTGCGAAAGCGTGGGGAGCAAACAGGATTAGATACCCTG  777
+
+Query  800   GTAGTCCACGCCGTAAACGATGTCGACTTGGAGGTTGTGCCCTTGAGGCGTGGCTTCCGG  859
+             ||||||||||| ||||||| |||||| |||| | ||| |  ||| | || |||   ||| 
+Sbjct  778   GTAGTCCACGCTGTAAACGCTGTCGATTTGGGGATTG-G-GCTTAATGCTTGGTGCCCGT  835
+
+Query  860   AGCTAACGCGTTAAGTCGACCGCCTGGGGAGTACGGCCGCAAGGTTAAAACTCAAATGAA  919
+             |||||||| | ||| |||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  836   AGCTAACGTGATAAATCGACCGCCTGGGGAGTACGGCCGCAAGGTTAAAACTCAAATGAA  895
+
+Query  920   TTGACGGGGGCCCGCACAAGCGGTGGAGCATGTGGTTTAATTCGATNNAACGCGAAGAAC  979
+             ||||||||||||||||||||||||||||||||||||||||||||||  ||||||||||||
+Sbjct  896   TTGACGGGGGCCCGCACAAGCGGTGGAGCATGTGGTTTAATTCGATGCAACGCGAAGAAC  955
+
+Query  980   CTTACCTGGTCTTGACATCCACGGAAGTTTTCAGAGATGAGAAT-GTGCCTTCGGGAACC  1038
+             |||||||  ||||||||||||  ||| ||||||||||||| | | |||||||||||| | 
+Sbjct  956   CTTACCTACTCTTGACATCCAGAGAACTTTTCAGAGATGA-ATTGGTGCCTTCGGGAGCT  1014
+
+Query  1039  GTGAGACAGGTGCTGCATGGCTGTCGTCAGCTCGTGTTGTGAAATGTTGGGTTAAGTCCC  1098
+              |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1015  CTGAGACAGGTGCTGCATGGCTGTCGTCAGCTCGTGTTGTGAAATGTTGGGTTAAGTCCC  1074
+
+Query  1099  GCAACGAGCGCAACCCTTATCCTTTGTTGCCAGCGGTCCGGCCGGGAACTCAAAGGAGAC  1158
+             ||||||||||||||||||||||||||||||||||| |  || ||||||||||||||||||
+Sbjct  1075  GCAACGAGCGCAACCCTTATCCTTTGTTGCCAGCGATTTGGTCGGGAACTCAAAGGAGAC  1134
+
+Query  1159  TGCCAGTGATAAACTGGAGGAAGGTGGGGATGACGTCAAGTCATCATGNCCCTTACGACC  1218
+             |||| ||||||||| ||||||||||||||||||||||||||||||||| |||||||||  
+Sbjct  1135  TGCCGGTGATAAACCGGAGGAAGGTGGGGATGACGTCAAGTCATCATGGCCCTTACGAGT  1194
+
+Query  1219  AGGGCTACACACGTGCTACAATGGCGCATACAAAGAGAAGCGACCTCGCGA-GAGCAAGC  1277
+             |||||||||||||||||||||||||| ||||| || || ||||    |||| | | | ||
+Sbjct  1195  AGGGCTACACACGTGCTACAATGGCGTATACAGAGGGAGGCGAAGCAGCGATGTGGA-GC  1253
+
+Query  1278  GGACCTCATAAAGTGCGTCGTAGTCCGGATTGGAGTCTGCAACTCGACTCCATGAAGTCG  1337
+             | | | || ||||||||||  |||||||||||||||||||||||||||||||||||||||
+Sbjct  1254  GAATCCCAGAAAGTGCGTCTAAGTCCGGATTGGAGTCTGCAACTCGACTCCATGAAGTCG  1313
+
+Query  1338  GAATCGCTAGTAATCGTGGATCAGAATGCCACGGTGAATACGTTCCCGGGCCTTGTACAC  1397
+             |||||||||||||||| | ||||||||| | |||||||||||||||||||||||||||||
+Sbjct  1314  GAATCGCTAGTAATCGCGAATCAGAATGTCGCGGTGAATACGTTCCCGGGCCTTGTACAC  1373
+
+Query  1398  ACCGNCCGTNACACCATGGGAGTGGGTTGCAAAAGAAGTAGGTAGCTTAACCTTCGGGAG  1457
+             |||| |||| ||||||||||||||||||| |  |||||||| ||||||||||||||||||
+Sbjct  1374  ACCGCCCGTCACACCATGGGAGTGGGTTGTACCAGAAGTAGATAGCTTAACCTTCGGGAG  1433
+
+Query  1458  GGCGCTTACCACTTTGTGATTCATGACTGGGGTGA  1492
+             |||| |||||||  | |||||||||||||||||||
+Sbjct  1434  GGCGTTTACCACGGTATGATTCATGACTGGGGTGA  1468
+
+
+
+
+>NZ_WBMB01000033.1 Haemophilus parainfluenzae strain LC_1315_18 NODE_33_length_1456_cov_2584.929659, whole genome shotgun sequence
+Sequence ID: Query_625255 Length: 1456
+Range 1: 1 to 779
+
+Score:1040 bits(563), Expect:0.0, 
+Identities:707/782(90%),  Gaps:4/782(0%), Strand: Plus/Plus
+
+Query  761   GTGCGAAAGCGTGGGGAGCAAACAGGATTAGATACCCTGGTAGTCCACGCCGTAAACGAT  820
+             |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||
+Sbjct  1     GTGCGAAAGCGTGGGGAGCAAACAGGATTAGATACCCTGGTAGTCCACGCTGTAAACGAT  60
+
+Query  821   GTCGACTTGGAGGTTGTGCCCTTGAGGCGTGGCTTCCGGAGCTAACGCGTTAAGTCGACC  880
+             ||||| |||| |||||   | |||| |  ||||  ||| |||||||| | ||| ||||||
+Sbjct  61    GTCGATTTGGGGGTTG-AACTTTGA-GTTTGGCGCCCGTAGCTAACGTGATAAATCGACC  118
+
+Query  881   GCCTGGGGAGTACGGCCGCAAGGTTAAAACTCAAATGAATTGACGGGGGCCCGCACAAGC  940
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  119   GCCTGGGGAGTACGGCCGCAAGGTTAAAACTCAAATGAATTGACGGGGGCCCGCACAAGC  178
+
+Query  941   GGTGGAGCATGTGGTTTAATTCGATNNAACGCGAAGAACCTTACCTGGTCTTGACATCCA  1000
+             |||||||||||||||||||||||||  |||||||||||||||||||  ||||||||||||
+Sbjct  179   GGTGGAGCATGTGGTTTAATTCGATGCAACGCGAAGAACCTTACCTACTCTTGACATCCA  238
+
+Query  1001  CGGAAGTTTTCAGAGATGAGAAT-GTGCCTTCGGGAACCGTGAGACAGGTGCTGCATGGC  1059
+               |||  || |||||||| |||| ||||||||||||||  ||||||||||||||||||||
+Sbjct  239   GAGAACATTCCAGAGATG-GAATGGTGCCTTCGGGAACTCTGAGACAGGTGCTGCATGGC  297
+
+Query  1060  TGTCGTCAGCTCGTGTTGTGAAATGTTGGGTTAAGTCCCGCAACGAGCGCAACCCTTATC  1119
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  298   TGTCGTCAGCTCGTGTTGTGAAATGTTGGGTTAAGTCCCGCAACGAGCGCAACCCTTATC  357
+
+Query  1120  CTTTGTTGCCAGCGGTCCGGCCGGGAACTCAAAGGAGACTGCCAGTGATAAACTGGAGGA  1179
+             |||||||||||||| | ||| |||||||||||||||||||||| ||||||||| ||||||
+Sbjct  358   CTTTGTTGCCAGCGATTCGGTCGGGAACTCAAAGGAGACTGCCGGTGATAAACCGGAGGA  417
+
+Query  1180  AGGTGGGGATGACGTCAAGTCATCATGNCCCTTACGACCAGGGCTACACACGTGCTACAA  1239
+             ||||||||||||||||||||||||||| |||||||||  |||||||||||||||||||||
+Sbjct  418   AGGTGGGGATGACGTCAAGTCATCATGGCCCTTACGAGTAGGGCTACACACGTGCTACAA  477
+
+Query  1240  TGGCGCATACAAAGAGAAGCGACCTCGCGAGAGCAAGCGGACCTCATAAAGTGCGTCGTA  1299
+             ||||| ||||| || |||||||    |||||    |||| | |||| ||||| ||||  |
+Sbjct  478   TGGCGTATACAGAGGGAAGCGAGAGTGCGAGCTGGAGCGAATCTCACAAAGTACGTCTAA  537
+
+Query  1300  GTCCGGATTGGAGTCTGCAACTCGACTCCATGAAGTCGGAATCGCTAGTAATCGTGGATC  1359
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||   |||
+Sbjct  538   GTCCGGATTGGAGTCTGCAACTCGACTCCATGAAGTCGGAATCGCTAGTAATCGCAAATC  597
+
+Query  1360  AGAATGCCACGGTGAATACGTTCCCGGGCCTTGTACACACCGNCCGTNACACCATGGGAG  1419
+             ||||||   ||||||||||||||||||||||||||||||||| |||| ||||||||||||
+Sbjct  598   AGAATGTTGCGGTGAATACGTTCCCGGGCCTTGTACACACCGCCCGTCACACCATGGGAG  657
+
+Query  1420  TGGGTTGCAAAAGAAGTAGGTAGCTTAACCTTCGGGAGGGCGCTTACCACTTTGTGATTC  1479
+             ||||||| |  |||||||| ||||||||||||  |||||||| |||||||  | ||||||
+Sbjct  658   TGGGTTGTACCAGAAGTAGATAGCTTAACCTTTTGGAGGGCGTTTACCACGGTATGATTC  717
+
+Query  1480  ATGACTGGGGTGAAGTCGTAACAAGGTAACCGTAGGNGNNCCTGCGGTTGGATCACCTCC  1539
+             |||||||||||||||||||||||||||||||||||| |  ||||||||||||||||||||
+Sbjct  718   ATGACTGGGGTGAAGTCGTAACAAGGTAACCGTAGGGGAACCTGCGGTTGGATCACCTCC  777
+
+Query  1540  TT  1541
+             ||
+Sbjct  778   TT  779
+
+
+
+
+>NZ_PNGO01000009.1 Lactobacillus iners strain UMB1051 .21837_8_56.9, whole genome shotgun sequence
+Sequence ID: Query_625261 Length: 1595
+Range 1: 101 to 1399
+
+Score:946 bits(512), Expect:0.0, 
+Identities:1051/1317(80%),  Gaps:36/1317(2%), Strand: Plus/Minus
+
+Query  243   ATTAGCTAGTAGGTGGGGTAACGGCTCACCTAGGCGACGATCCCTAGCTG-GTCTGAGAG  301
+             |||||||||| ||| ||||||||||  ||| |||||| ||| | |||| | || ||||||
+Sbjct  1399  ATTAGCTAGTTGGTAGGGTAACGGCCTACCAAGGCGATGATGCATAGCCGAGT-TGAGAG  1341
+
+Query  302   GATGACCAGCCACACTGGAACTGAGACACGGTCCAGACTCCTACGGGAGGCAGCAGTGGG  361
+               ||| | |||||| ||| |||||||||||| ||| ||||||||||||||||||||| ||
+Sbjct  1340  ACTGATCGGCCACATTGGGACTGAGACACGGCCCAAACTCCTACGGGAGGCAGCAGTAGG  1281
+
+Query  362   GAATATTGCACAATGGGCGCAAGCCTGATGCAGCCATGCCGCGTGTATGAAGAAGGCCTT  421
+             |||| || |||||||| |||||| |||||| ||| | ||||||||  |||||||||  ||
+Sbjct  1280  GAATCTTCCACAATGGACGCAAGTCTGATGGAGCAACGCCGCGTGAGTGAAGAAGGGTTT  1221
+
+Query  422   CGGGTTGTAAAG-TAC-TT-TCAGCG-GGGAGGA-AGGGAGTAAAGTTAAT-ACCTTTGC  475
+             ||| | |||||| |   || |  | |  | |||| |||| ||  ||| | | ||||||| 
+Sbjct  1220  CGGCTCGTAAAGCTCTGTTGTTGGTGAAGAAGGACAGGG-GT--AGTAACTGACCTTTG-  1165
+
+Query  476   TCATTGACGTTACCCGCAGAAG-AAG-CACCGGCTAACTCCGNGCCAGCAGCCNCGGTAA  533
+             |  |||||| ||  |  |  || ||| || ||||||||| || |||||||||| ||||||
+Sbjct  1164  T--TTGACGGTAATC-AATTAGAAAGTCA-CGGCTAACTACGTGCCAGCAGCCGCGGTAA  1109
+
+Query  534   TACGGAGGGTGCAAGCGTTAATCGGAATTACTGGGCGTAAAGCGCACGCAGGCGGTTTGT  593
+             |||| |||  |||||||||   |||| ||| |||||||||||||   |||||||| | | 
+Sbjct  1108  TACGTAGGTGGCAAGCGTTGTCCGGATTTATTGGGCGTAAAGCGAGTGCAGGCGGCTCGA  1049
+
+Query  594   TAAGTCAGATGTGAAATCCCCGGGCTCAACCTGGGAACTGCATCTGATACTGGCAAGCTT  653
+             |||||| ||||||||| ||   ||||||||| | ||| |||||| || |||| | |||||
+Sbjct  1048  TAAGTCTGATGTGAAAGCCTTCGGCTCAACCGGAGAATTGCATCAGAAACTGTCGAGCTT  989
+
+Query  654   GAGTCTCGTAGAGGGGGGTAGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAG  713
+             ||||   | ||||| | || ||| |||| |||||||||||||||||||||| || |||| 
+Sbjct  988   GAGTACAGAAGAGGAGAGTGGAACTCCATGTGTAGCGGTGAAATGCGTAGATATATGGAA  929
+
+Query  714   GAATACCGGTGGCGAAGGCGGCCCCCTGGACGAAGACTGACGCTCAGGTGCGAAAGCGTG  773
+             ||| |||||||||||||||||| | |||| |    ||||||||| |||  ||||||| ||
+Sbjct  928   GAACACCGGTGGCGAAGGCGGCTCTCTGGTCTGTTACTGACGCTGAGGCTCGAAAGCATG  869
+
+Query  774   GGGAGCAAACAGGATTAGATACCCTGGTAGTCCACGCCGTAAACGATG-TCGACTTGGAG  832
+             || ||| ||||||||||||||||||||||||||| |||||||||||||   | | |  ||
+Sbjct  868   GGTAGCGAACAGGATTAGATACCCTGGTAGTCCATGCCGTAAACGATGAGTG-C-T-AAG  812
+
+Query  833   -GTTGTGCCCTTGAGGCGTGGC--TTCCGGAGCTAACGCGTTAAGTCGA-CCGCCTGGGG  888
+              |||| |   ||   || |  |  | | | ||||||||| ||||| |   ||||||||||
+Sbjct  811   TGTTGGGAGGTTTCCGCNTCTCAGTGCTGCAGCTAACGCATTAAG-CACTCCGCCTGGGG  753
+
+Query  889   AGTACGGCCGCAAGGTTAAAACTCAAATGAATTGACGGGGGCCCGCACAAGCGGTGGAGC  948
+             |||||| |||||||||| ||||||||| ||||||||||||||||||||||||||||||||
+Sbjct  752   AGTACGACCGCAAGGTTGAAACTCAAAGGAATTGACGGGGGCCCGCACAAGCGGTGGAGC  693
+
+Query  949   ATGTGGTTTAATTCGATNNAACGCGAAGAACCTTACCTGGTCTTGACATCCACGGA-AGT  1007
+             ||||||||||||||||   |||||||||||||||||| ||||||||||||||  |  |||
+Sbjct  692   ATGTGGTTTAATTCGAAGCAACGCGAAGAACCTTACCAGGTCTTGACATCCATAGCCAGT  633
+
+Query  1008  TTTCAGAGATGAGAATGTG-CCTTCGGGAACCGTGAGACAGGTGCTGCATGGCTGTCGTC  1066
+              |  |||||| ||| |||  |||||||| ||  ||||||||||| |||||||||||||||
+Sbjct  632   CTA-AGAGATTAGA-TGTTCCCTTCGGGGACTATGAGACAGGTGGTGCATGGCTGTCGTC  575
+
+Query  1067  AGCTCGTGTTGTGAAATGTTGGGTTAAGTCCCGCAACGAGCGCAACCCTTATCCTTTGTT  1126
+             ||||||||| |||| ||||||||||||||||||||||||||||||||||| || || |||
+Sbjct  574   AGCTCGTGTCGTGAGATGTTGGGTTAAGTCCCGCAACGAGCGCAACCCTTGTCATTAGTT  515
+
+Query  1127  GCCAGCGGTCCGGCCGGGAACTCAAAGGAGACTGCCAGTGATAAACTGGAGGAAGGTGGG  1186
+             ||||||  |  |   ||| |||| || ||||||||| |||| |||| |||||||||||||
+Sbjct  514   GCCAGCATTAAGTT-GGGCACTCTAATGAGACTGCCGGTGACAAACCGGAGGAAGGTGGG  456
+
+Query  1187  GATGACGTCAAGTCATCATGNCCCTTACGACCAGGGCTACACACGTGCTACAATGG-CGC  1245
+             |||||||||||||||||||| |||||| |||| ||||||||||||||||||||||| || 
+Sbjct  455   GATGACGTCAAGTCATCATGCCCCTTATGACCTGGGCTACACACGTGCTACAATGGACGG  396
+
+Query  1246  ATACAAAGAGAAGCGACCTCGCGAGAGCAAGCGGACCTCATAAAGTGCGT-CGTAGTCCG  1304
+              ||||| |||||||||||  | ||  ||||||||| |||  ||||  ||| |  ||| ||
+Sbjct  395   -TACAACGAGAAGCGACCCTGTGAAGGCAAGCGGATCTCTGAAAGC-CGTTCTCAGTTCG  338
+
+Query  1305  GATTGGAGTCTGCAACTCGACTCCATGAAGTCGGAATCGCTAGTAATCGTGGATCAGAAT  1364
+             ||||| || |||||||||| || |||||||  |||||||||||||||||   ||||| | 
+Sbjct  337   GATTGCAGGCTGCAACTCGCCTGCATGAAGCTGGAATCGCTAGTAATCGCAAATCAGCAC  278
+
+Query  1365  GCCACGGTGAATACGTTCCCGGGCCTTGTACACACCGNCCGTNACACCATGGGAGTGGGT  1424
+             |   ||||||||||||||||||||||||||||||||| |||| |||||||| ||||  ||
+Sbjct  277   GTTGCGGTGAATACGTTCCCGGGCCTTGTACACACCGCCCGTCACACCATGAGAGTCTGT  218
+
+Query  1425  TGCAAAAGAAGTAGGTAGCTTAACCTTCGGGAGGGCGCTTACCACTTTGTGATTCATGAC  1484
+               |    ||||  ||  |  |||||    ||||   ||   | |    | ||   |||| 
+Sbjct  217   AACGCCCGAAGCCGGCGGGATAACCGAAAGGAGTCAGCCGTCTAAGGCGGGACAGATGAT  158
+
+Query  1485  TGGGGTGAAGTCGTAACAAGGTAACCGTAGGNGNNCCTGCGGTTGGATCACCTCCTT  1541
+             | ||||||||||||||||||||| ||||||| |  ||||||| ||||||||||||||
+Sbjct  157   TAGGGTGAAGTCGTAACAAGGTAGCCGTAGGAGAACCTGCGGCTGGATCACCTCCTT  101
+
+
+
+
+>NZ_AMZK01000007.1 Aerococcus christensenii DSM 15819 = CCUG 28831 strain DSM 15819 contig_cov_167.819351, whole genome shotgun sequence
+Sequence ID: Query_625237 Length: 1607
+Range 1: 27 to 1567
+
+Score:880 bits(476), Expect:0.0, 
+Identities:1209/1566(77%),  Gaps:57/1566(3%), Strand: Plus/Minus
+
+Query  8     AGAGTTTGATCATGGCTCAGATTGAACGCTGGCGGCAGGCCTAACACATGCAAGTCGAAC  67
+             ||||||||||| ||||||||   |||||||||||||  |||||| ||||||||||||| |
+Sbjct  1567  AGAGTTTGATCCTGGCTCAGGACGAACGCTGGCGGCGTGCCTAATACATGCAAGTCGAGC  1508
+
+Query  68    GGTAACAG-GAAGAAGCTTGCTTCTTTGCTGACG-AGTGGCGGACGGGTGAGTAA--TGT  123
+             |  ||||| |||   ||||||  |||| |  |   || |||||||||||||||||   ||
+Sbjct  1507  G--AACAGAGAAAGTGCTTGC-ACTTT-CAAAGTTAGCGGCGGACGGGTGAGTAACACGT  1452
+
+Query  124   CTGGGAAACTGCCTGAT-GGAGGGGGATAACTACTGGAAACGGTAGCTAATACCGCATA-  181
+                |||| || || |||  | |||||| |||  | ||||||||  |||||||||||||| 
+Sbjct  1451  -AAGGAACCTACC-GATAAGCGGGGGACAACATCCGGAAACGGGTGCTAATACCGCATAG  1394
+
+Query  182   --A---CG-TCGCAAG-ACCAA---AGAGGGGTACCTTCGGGCCTCTTGC-CATCGGATG  230
+               |    | ||||| | || ||   |||  | |  | ||  | || |  |  ||| ||||
+Sbjct  1393  GAAGTTTGTTCGCATGAACAAACTTAGAAAGATGGC-TC-TG-CTATCACTTATC-GATG  1338
+
+Query  231   TGCCCAGATGGG-ATTAGCTAGTAGGTGGGGTAACGGCTCACCTAGGCGACGATCCCTAG  289
+              |||  |  | | |||| ||||| || | |||||||||||||| ||| || ||| | |||
+Sbjct  1337  -GCCTTGCGGTGCATTAACTAGTTGGCGAGGTAACGGCTCACCAAGGTGATGATGCATAG  1279
+
+Query  290   CTGGTCTGAGAGGATGACCAGCCACACTGGAACTGAGACACGGTCCAGACTCCTACGGGA  349
+             | |  |||||||| | | | |||||| ||| |||||||||||| ||| ||||||||||||
+Sbjct  1278  CCGACCTGAGAGGGTAATCGGCCACATTGGGACTGAGACACGGCCCAAACTCCTACGGGA  1219
+
+Query  350   GGCAGCAGTGGGGAATATTGCACAATGGGCGCAAGCCTGATGCAGCCATGCCGCGTGTAT  409
+             ||||||||| |||||| || | |||||| |||||| |||| | ||| | ||||||||  |
+Sbjct  1218  GGCAGCAGTAGGGAATCTTCCGCAATGGACGCAAGTCTGACGGAGCAACGCCGCGTGAGT  1159
+
+Query  410   GAAGAAGGCCTTCGGGTTGTAAAGTACTTTCAGCGGGGAG-GAAGGGAGTAAAGT-TA-A  466
+             ||||||||  ||||| | |||||  ||  || |  |  || |||  ||  ||| | || |
+Sbjct  1158  GAAGAAGGTTTTCGGATCGTAAA--AC--TCTGTTGTAAGAGAA--GAACAAATTGTAGA  1105
+
+Query  467   -TACCTTTGCT-CA---TTGACGTTACCCGCAGAAG-AAGCACCGGCTAACTCCGNGCCA  520
+              || |  |||| ||   |||||| ||  |  |  || ||||  ||||||||| || ||||
+Sbjct  1104  GTAAC--TGCTACAGTCTTGACGGTA-TCTTACCAGAAAGCCACGGCTAACTACGTGCCA  1048
+
+Query  521   GCAGCCNCGGTAATACGGAGGGTGCAAGCGTTAATCGGAATTACTGGGCGTAAAGCGCAC  580
+             |||||| |||||||||| |||  |||||||||   |||| ||| ||||||||||| |  |
+Sbjct  1047  GCAGCCGCGGTAATACGTAGGTGGCAAGCGTTGTCCGGATTTATTGGGCGTAAAGGGGGC  988
+
+Query  581   GCAGGCGGTTTGTTAAGTCAGATGTGAAATCCCCGGGCTCAACCTGGGAACTGCATCTGA  640
+             |||||| | || ||||||| ||||||||| |||  |||| ||||  |||| |||||  ||
+Sbjct  987   GCAGGCTGCTTCTTAAGTCTGATGTGAAAGCCCACGGCTTAACCGTGGAAGTGCATTGGA  928
+
+Query  641   TACTGGCAAGCTTGAGTCTCGTAGAGGGGGGTAGAATTCCAGGTGTAGCGGTGAAATGCG  700
+              ||||| ||||||||||   | |||||   || ||| |||| ||||||||||| ||||||
+Sbjct  927   AACTGGGAAGCTTGAGTACAGAAGAGGAAAGTGGAACTCCATGTGTAGCGGTGGAATGCG  868
+
+Query  701   TAGAGATCTGGAGGAATACCGGTGGCGAAGGCGGCCCCCTGGACGAAGACTGACGCTCAG  760
+             |||| || |||| ||| ||| |||||||| ||| |   |||| |    ||||||||| ||
+Sbjct  867   TAGATATATGGAAGAACACCAGTGGCGAAAGCGACTTTCTGGTCTGTCACTGACGCTGAG  808
+
+Query  761   GTGCGAAAGCGTGGGGAGCAAACAGGATTAGATACCCTGGTAGTCCACGCCGTAAACGAT  820
+             |  |||||||||||| ||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  807   GCCCGAAAGCGTGGGTAGCAAACAGGATTAGATACCCTGGTAGTCCACGCCGTAAACGAT  748
+
+Query  821   GT-CGACTTGGAGGTTGTGCCCTTG-AGGCGTGGCTTCCGGAGCTAACGCGTTAAGTCGA  878
+             |  || || || | | | |   ||  |  | |   | ||| ||||||||| ||||| || 
+Sbjct  747   GAGCG-CTAGGTGTTGGAGGGTTTCCACCCTTCAGTGCCGCAGCTAACGCATTAAG-CGC  690
+
+Query  879   -CCGCCTGGGGAGTACGGCCGCAAGGTTAAAACTCAAATGAATTGACGGGGGCCCGCACA  937
+              |||||||||||||||| |||||||||| ||||||||| |||||||||||| ||||||||
+Sbjct  689   TCCGCCTGGGGAGTACGACCGCAAGGTTGAAACTCAAAGGAATTGACGGGGACCCGCACA  630
+
+Query  938   AGCGGTGGAGCATGTGGTTTAATTCGATNNAACGCGAAGAACCTTACCTGGTCTTGACAT  997
+             |||||||||||||||||||||||||||   ||||||||||||||||||  ||||||||||
+Sbjct  629   AGCGGTGGAGCATGTGGTTTAATTCGAAGCAACGCGAAGAACCTTACCAAGTCTTGACAT  570
+
+Query  998   CCACGGAAGTTTTCAGAGATGAGAATGTG-CCTTCGGGAACCGTGAGACAGGTGCTGCAT  1056
+             ||   ||    |   ||||| ||| | |  |||||||| ||   | |||||||| |||||
+Sbjct  569   CCTTTGACCACTCTGGAGAT-AGAGTTTTCCCTTCGGGGACAAAGTGACAGGTGGTGCAT  511
+
+Query  1057  GGCTGTCGTCAGCTCGTGTTGTGAAATGTTGGGTTAAGTCCCGCAACGAGCGCAACCCTT  1116
+             || |||||||||||||||| |||| ||||||||||||||||||||||||||||||||| |
+Sbjct  510   GGTTGTCGTCAGCTCGTGTCGTGAGATGTTGGGTTAAGTCCCGCAACGAGCGCAACCCCT  451
+
+Query  1117  ATCCTTTGTTGCCAGCGGTCCGGCCGGGAACTCAAAGGAGACTGCCAGTGATAAACTGGA  1176
+             ||  || |||||||||  |  |   ||| |||| |   |||||||| |||| |||| |||
+Sbjct  450   ATTGTTAGTTGCCAGCATTGAGTT-GGGCACTCTAGCAAGACTGCCGGTGACAAACCGGA  392
+
+Query  1177  GGAAGGTGGGGATGACGTCAAGTCATCATGNCCCTTACGACCAGGGCTACACACGTGCTA  1236
+             |||||| |||||||||||||| |||||||| |||||| |||  |||||||||||||||||
+Sbjct  391   GGAAGGCGGGGATGACGTCAAATCATCATGCCCCTTATGACTTGGGCTACACACGTGCTA  332
+
+Query  1237  CAATGGCGCATACAAAGAGAAGCGACCTCGCGAGAGCAAGCGGACCTCATAAAGTGCGTC  1296
+             ||||||    ||||| | | ||||| ||||||||||  |||| | | | |||||    ||
+Sbjct  331   CAATGGATGGTACAACGGGCAGCGAGCTCGCGAGAGTCAGCGAATCCCTTAAAGCCATTC  272
+
+Query  1297  GTAGTCCGGATTGGAGTCTGCAACTCGACTCCATGAAGTCGGAATCGCTAGTAATCGTGG  1356
+               ||| ||||||| |||||||||||||||| ||||||| |||||||||||||||||| ||
+Sbjct  271   TCAGTTCGGATTGTAGTCTGCAACTCGACTACATGAAGCCGGAATCGCTAGTAATCGCGG  212
+
+Query  1357  ATCAGAATGCCACGGTGAATACGTTCCCGGGCCTTGTACACACCGNCCGTNACACCATGG  1416
+             ||||| | ||| ||||||||||||||||||| ||||||||||||| |||| |||||| | 
+Sbjct  211   ATCAGCACGCCGCGGTGAATACGTTCCCGGGTCTTGTACACACCGCCCGTCACACCACGA  152
+
+Query  1417  GAGTGGGTTGCAAAAGAAGTAGGT-AGCTTAACCTTCGGGAGGGCGCTTACCACTTTGTG  1475
+             ||||  ||  ||   ||||| ||| ||  |||||||  ||||   ||   | |   || |
+Sbjct  151   GAGTTTGTAACACCCGAAGTCGGTGAGG-TAACCTTTTGGAGCCAGCCGCCGAAGGTGGG  93
+
+Query  1476  ATTCATGACTGGGGTGAAGTCGTAACAAGGTAACCGTAGGNGNNCCTGCGGTTGGATCAC  1535
+             |    ||| ||||||||||||||||||||||| ||||||| |  ||||||| ||||||||
+Sbjct  92    ACAAGTGATTGGGGTGAAGTCGTAACAAGGTAGCCGTAGGAGAACCTGCGGCTGGATCAC  33
+
+Query  1536  CTCCTT  1541
+             ||||||
+Sbjct  32    CTCCTT  27
+
+
+
+
+>NR_171541.1 Gardnerella leopoldii strain UGent06.41 16S ribosomal RNA, partial sequence
+Sequence ID: Query_625252 Length: 1524
+Range 1: 237 to 1523
+
+Score:767 bits(415), Expect:0.0, 
+Identities:1016/1312(77%),  Gaps:38/1312(2%), Strand: Plus/Plus
+
+Query  243   ATTAGCTAGTAGGTGGGGTAACGGCTCACCTAGGCGACGATCCCTAGCTGGTCTGAGAGG  302
+             || |||| ||||| ||||||| ||| |||||||||  |||    |||| || ||||||||
+Sbjct  237   ATCAGCTTGTAGGCGGGGTAATGGCCCACCTAGGCTTCGACGGGTAGCCGGCCTGAGAGG  296
+
+Query  303   ATGACCAGCCACACTGGAACTGAGACACGGTCCAGACTCCTACGGGAGGCAGCAGTGGGG  362
+               |  | |||||| ||| ||||||| |||| |||||||||||||||||||||||||||||
+Sbjct  297   GCGGACGGCCACATTGGGACTGAGATACGGCCCAGACTCCTACGGGAGGCAGCAGTGGGG  356
+
+Query  363   AATATTGCACAATGGGCGCAAGCCTGATGCAGCCATGCCGCGTGTATGAAGAAGGCCTTC  422
+             |||||||| ||||||| | || ||||| ||||| | ||||||||   || ||||||||||
+Sbjct  357   AATATTGCGCAATGGGGGAAACCCTGACGCAGCGACGCCGCGTGCGGGATGAAGGCCTTC  416
+
+Query  423   GGGTTGTAAAGTACTTTCAGCGGGGAGGAAGGGAGTAAAGTTAATACCTTTGCTCATTGA  482
+             ||||||||||   ||||       ||    |||||  |||      |||||  |   |||
+Sbjct  417   GGGTTGTAAACCGCTTT------TGA--TTGGGAG-CAAG------CCTTT--TGGGTGA  459
+
+Query  483   CGT-TACCCGCAGAAGAAGCACCGGCTAACTCCGNGCCAGCAGCCNCGGTAATACGGAGG  541
+              || ||||    ||| |||| |||||||||| || |||||||||| |||||||||| |||
+Sbjct  460   -GTGTACCTTTCGAATAAGCGCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGG  518
+
+Query  542   GTGCAAGCGTTAATCGGAATTACTGGGCGTAAAGCGCACGCAGGCGGTTTGTTAAGTCAG  601
+             | ||||||||||  |||||||| ||||||||||| ||  | |||||||| ||   ||| |
+Sbjct  519   GCGCAAGCGTTATCCGGAATTATTGGGCGTAAAGAGCTTGTAGGCGGTTCGTCGCGTCTG  578
+
+Query  602   ATGTGAAATCCCCGGGCTCAAC-CTGGGAACTGCATCTGATACTGGCAAGCTTGAGTCTC  660
+              ||||||| |||   ||| |||  ||||  ||||  | | ||| |||  ||| ||||   
+Sbjct  579   GTGTGAAAGCCCATCGCTTAACGGTGGG-TCTGCGCCGGGTACGGGCGGGCTAGAGTGCA  637
+
+Query  661   GTAGAGGGGGGTAGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAATACC  720
+             |||| || |  | ||||||| |||||| ||||| |||| ||||| ||| ||| ||| |||
+Sbjct  638   GTAGGGGAGACTGGAATTCCCGGTGTAACGGTGGAATGTGTAGATATCGGGAAGAACACC  697
+
+Query  721   GGTGGCGAAGGCGGCCCCCTGGACGAAGACTGACGCTCAGGTGCGAAAGCGTGGGGAGCA  780
+               |||||||||| |  | |||| |    ||||||||| ||  ||||||||||||||||| 
+Sbjct  698   AATGGCGAAGGCAGGTCTCTGGGCTGTTACTGACGCTGAGAAGCGAAAGCGTGGGGAGCG  757
+
+Query  781   AACAGGATTAGATACCCTGGTAGTCCACGCCGTAAACGATGT-CGACTTGGAGGTTGTGC  839
+             |||||||||||||||||||||||||||||||||||||| ||  || | |||| || | ||
+Sbjct  758   AACAGGATTAGATACCCTGGTAGTCCACGCCGTAAACGGTGGACG-C-TGGATGTGGGGC  815
+
+Query  840   CC-TTG-AGGCGTGGC-TTCCGGAGCTAACGCGTTAAGTCGA-CCGCCTGGGGAGTACGG  895
+             || ||  | | ||  | |  |||||||||||||||||| ||  |||||||||||||||||
+Sbjct  816   CCATTCCACGGGTTCCGTGTCGGAGCTAACGCGTTAAG-CGTCCCGCCTGGGGAGTACGG  874
+
+Query  896   CCGCAAGGTTAAAACTCAAATGAATTGACGGGGGCCCGCACAAGCGGTGGAGCATGTGGT  955
+             |||||||| |||||||||||  ||||||||||||||||||||||||| |||||||| || 
+Sbjct  875   CCGCAAGGCTAAAACTCAAAGAAATTGACGGGGGCCCGCACAAGCGGCGGAGCATGCGGA  934
+
+Query  956   TTAATTCGATNNAACGCGAAGAACCTTACCTGGTCTTGACATCCACG-GAAGTTTTCAGA  1014
+             ||||||||||  ||||||||||||||||||||| ||||||||   |  |  |  | ||||
+Sbjct  935   TTAATTCGATGCAACGCGAAGAACCTTACCTGGGCTTGACATGTGCCTGTCGACTGCAGA  994
+
+Query  1015  GATGAGAATGTGCCTTCGGGAACCGTGAGACAGGTGCTGCATGGCTGTCGTCAGCTCGTG  1074
+             |||| |  | | ||||||||    ||   ||||||| |||||||  ||||||||||||||
+Sbjct  995   GATGTGGTT-TCCCTTCGGGGCAGGTTC-ACAGGTGGTGCATGGTCGTCGTCAGCTCGTG  1052
+
+Query  1075  TTGTGAAATGTTGGGTTAAGTCCCGCAACGAGCGCAACCCTTATCCTTTGTTGCCAGC-G  1133
+             | |||| ||||||||||||||||||||||||||||||||||   ||| |||||||||| |
+Sbjct  1053  TCGTGAGATGTTGGGTTAAGTCCCGCAACGAGCGCAACCCTCGCCCTGTGTTGCCAGCGG  1112
+
+Query  1134  GTCCGGCCGGGAACTCAAAGGAGACTGCCAGTGATAAACT-GGAGGAAGGTGGGGATGAC  1192
+             ||   ||||||||||||  || ||| ||| | | ||| || |||||||||||||||||||
+Sbjct  1113  GTTATGCCGGGAACTCACGGGGGACCGCCGGGGTTAA-CTCGGAGGAAGGTGGGGATGAC  1171
+
+Query  1193  GTCAAGTCATCATGNCCCTTACGACCAGGGCTACACACGTGCTACAATGGCGCATACAAA  1252
+             ||||  |||||||| |||||||| |||||||| ||| | ||||||||||||   ||||| 
+Sbjct  1172  GTCAGATCATCATGCCCCTTACGTCCAGGGCTTCACGCATGCTACAATGGCCGGTACAAC  1231
+
+Query  1253  GAGAAGCGACCTCGCGAGAGCAAGCGGACCTCATAAAGTGCGTCGTAGTCCGGATTGGAG  1312
+             | || ||||| | | || |   |||||| | | ||||    |||  ||| ||||| | ||
+Sbjct  1232  GGGATGCGACATGGTGACATGGAGCGGATCCCTTAAAACCGGTCTCAGTTCGGATCGTAG  1291
+
+Query  1313  TCTGCAACTCGACTCCATGAAGTCGGAATCGCTAGTAATCGTGGATCAG-AATGCCACGG  1371
+             |||||||||||||| | ||||| |||| ||||||||||||| | ||||| || | | |||
+Sbjct  1292  TCTGCAACTCGACTACGTGAAGGCGGAGTCGCTAGTAATCGCGAATCAGCAACGTCGCGG  1351
+
+Query  1372  TGAATACGTTCCCGGGCCTTGTACACACCGNCCGTNACACCATGGGAGTGGGTTGCAAAA  1431
+             ||||| |||||||||||||||||||||||| |||| |   ||||  ||||||  |||   
+Sbjct  1352  TGAATGCGTTCCCGGGCCTTGTACACACCGCCCGTCAAGTCATGAAAGTGGGCAGCACCC  1411
+
+Query  1432  GAAGTAGGTAGCTTAACC-TTC-GGGAGGGCGCTTACCACTTTGTGATTCATGACTGGGG  1489
+             ||||  ||| || ||||| ||  |||| || ||   | |   || |  || ||| |||| 
+Sbjct  1412  GAAGCCGGTGGCCTAACCCTTTTGGGATGGAGCCGTCTAAGGTGAGGCTCGTGATTGGGA  1471
+
+Query  1490  TGAAGTCGTAACAAGGTAACCGTAGGNGNNCCTGCGGTTGGATCACCTCCTT  1541
+               |||||||||||||||| |||||   |    ||||| ||||||||||||||
+Sbjct  1472  CTAAGTCGTAACAAGGTAGCCGTACCGGAAGGTGCGGCTGGATCACCTCCTT  1523
+
+
+
+
+>NZ_JBBNGY010000024.1 Peptoniphilus lacrimalis strain CLA-AA-H203 CLAAAH203_contig_24_length_1459, whole genome shotgun sequence
+Sequence ID: Query_625270 Length: 1459
+Range 1: 163 to 1308
+
+Score:765 bits(414), Expect:0.0, 
+Identities:936/1187(79%),  Gaps:51/1187(4%), Strand: Plus/Plus
+
+Query  243   ATTAGCTAGTAGGTG-GGGTAACGGCTCACCTAGGCGACGATCCCTAGCTGGTCTGAGAG  301
+             |||||||||| ||||  ||||||||| |||| |||| |||||   |||| || |||||||
+Sbjct  163   ATTAGCTAGTTGGTGAAGGTAACGGCCCACCAAGGCAACGATGGGTAGCCGGCCTGAGAG  222
+
+Query  302   GATGACCAGCCACACTGGAACTGAGACACGGTCCAGACTCCTACGGGAGGCAGCAGTGGG  361
+             | ||| | |||||| ||||||||||| |||||||| ||||||||||||||||||||||||
+Sbjct  223   GGTGAACGGCCACATTGGAACTGAGAAACGGTCCAAACTCCTACGGGAGGCAGCAGTGGG  282
+
+Query  362   GAATATTGCACAATGGGCGCAAGCCTGATGCAGCCATGCCGCGTGTATGAAGAAGGCCTT  421
+             ||||||||||||||||| | || ||||||||||| | ||||||||   ||||||||||||
+Sbjct  283   GAATATTGCACAATGGGGGAAACCCTGATGCAGCGACGCCGCGTGAGCGAAGAAGGCCTT  342
+
+Query  422   CGGGTTGTAAAGTACTTTCAGCGGGGAGGAAGGGAGTAAAGTTAATACCTTTGCTCATTG  481
+             ||||| ||||||  |||| |   ||||  | |  | ||| |  |   |  |  | |||  
+Sbjct  343   CGGGTCGTAAAGCTCTTTTATATGGGA--A-G--A-TAATG--A---CGGTA-C-CAT--  387
+
+Query  482   ACGTTACCCGCAGAAGAAGCACCGGCTAACTCCGNGCCAGCAGCCNCGGTAATACGGAGG  541
+             |    |   | | || |||| |||||||||| || |||||||||| |||||||||| |||
+Sbjct  388   A----A---G-A-AA-AAGCCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGG  437
+
+Query  542   GTGCAAGCGTTAATCGGAATTACTGGGCGTAAAGCGCACGCAGGCGGTT-TGTTAAGTCA  600
+             | || ||||||   |||||| ||||||||||||| |  |||||||||   ||  ||||||
+Sbjct  438   GGGCTAGCGTTGTCCGGAATCACTGGGCGTAAAGGGTTCGCAGGCGGCAATGC-AAGTCA  496
+
+Query  601   GATGTGAAATCCCCGGGCTCAACCTGGGAACTGCATCTGATACTGGCAAGCTTGAGTCTC  660
+             ||||| |||  |   ||||||||||  | |  |||||||| ||||   ||||||||    
+Sbjct  497   GATGTAAAAGGCAAAGGCTCAACCTTTGTAA-GCATCTGAAACTGTATAGCTTGAGAAGT  555
+
+Query  661   GTAGAGGGGGGTAGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAATACC  720
+             |||||||   || |||||    |||||||||||||||||||||| ||    | |||||||
+Sbjct  556   GTAGAGGCAAGTGGAATTTTTAGTGTAGCGGTGAAATGCGTAGATATTAAAAAGAATACC  615
+
+Query  721   GGTGGCGAAGGCGGCCCCCTGG--ACGAAGACTGACGCTCAGGTGCGAAAGCGTGGGGAG  778
+             ||||||||||||| |   ||||  || ||  |||||||| |||  |||||||||||||||
+Sbjct  616   GGTGGCGAAGGCGACTTGCTGGGCAC-AAT-CTGACGCTGAGGAACGAAAGCGTGGGGAG  673
+
+Query  779   CAAACAGGATTAGATACCCTGGTAGTCCACGCCGTAAACGATG-TCGACTTGGAGGTTGT  837
+             |||||||||||||||||||||||||||||||||||||||||||   | ||   |||| ||
+Sbjct  674   CAAACAGGATTAGATACCCTGGTAGTCCACGCCGTAAACGATGAGTG-CT---AGGT-GT  728
+
+Query  838   GCCCT-TGAGGCGTGGCTTCCGGAGCTAACGCGTTAAGTCGA-CCGCCTGGGGAGTACGG  895
+              |  | | |  || |  | ||| || |||| |  |||| |   |||||||||||||||| 
+Sbjct  729   -CGGTATAAATCG-G--TGCCGCAGTTAACACAATAAG-CACTCCGCCTGGGGAGTACGT  783
+
+Query  896   CCGCAAGGTTAAAACTCAAATGAATTGACGGGGGCCCGCACAAGCGGTGGAGCATGTGGT  955
+              ||||||  | ||||||||| |||||||||||| ||||||||||| | ||||||||||||
+Sbjct  784   GCGCAAGCATGAAACTCAAAGGAATTGACGGGGACCCGCACAAGCAGCGGAGCATGTGGT  843
+
+Query  956   TTAATTCGATNNAACGCGAAGAACCTTACCTGGTCTTGACATCCACG-GAAGTTTTCAGA  1014
+             |||||||||   |||||||||||||||||| || ||||||||  | | || |   | |||
+Sbjct  844   TTAATTCGAAGCAACGCGAAGAACCTTACCAGGGCTTGACATATAAGAGACGAACTTAGA  903
+
+Query  1015  GATGAGAATGTGCCTTCGGGAACCGTGAGACAGGTGCTGCATGGCTGTCGTCAGCTCGTG  1074
+             ||| ||  |    |||||| | || | | ||||||| ||||||| |||||||||||||||
+Sbjct  904   GATAAGTTTTCTTCTTCGGAAGCCCTTATACAGGTGGTGCATGGTTGTCGTCAGCTCGTG  963
+
+Query  1075  TTGTGAAATGTTGGGTTAAGTCCCGCAACGAGCGCAACCCTTATCCTTTGTTGCCAGCGG  1134
+             | |||| |||||||||||||||||||||||||||||||||||||   | ||| |||||  
+Sbjct  964   TCGTGAGATGTTGGGTTAAGTCCCGCAACGAGCGCAACCCTTATTACTAGTTACCAGCAT  1023
+
+Query  1135  TCCGGCCGGGAACTCAAAGGAGACTGCCAGTGATAAACTGGAGGAAGGTGGGGATGACGT  1194
+             | |||  ||| |||| |   ||||||||  |||||||  |||||||||||||||||||||
+Sbjct  1024  TTCGGATGGGGACTCTAGAAAGACTGCCGATGATAAATCGGAGGAAGGTGGGGATGACGT  1083
+
+Query  1195  CAAGTCATCATGNCCCT-TACGACCAGGGCTACACACGTGCTACAATGGCGCAT-ACAAA  1252
+             ||| |||||||| |||| || | || |||| ||||||||||||||||||| | | |||||
+Sbjct  1084  CAAATCATCATG-CCCTATATGCCCTGGGCAACACACGTGCTACAATGGC-CGTAACAAA  1141
+
+Query  1253  GAGAAGCGACCTCGCGAGAGCAAGCGGACCTCATAAAGTGCGTCGTAGTCCGGATTGGAG  1312
+             |||||||||  |||| ||  |||||  |||||| ||||   |||  ||| |||||||   
+Sbjct  1142  GAGAAGCGAAATCGCAAGGTCAAGCAAACCTCAAAAAGACGGTCTCAGTTCGGATTGTTC  1201
+
+Query  1313  TCTGCAACTCGACTCCATGAAGTCGGAATCGCTAGTAATCGTGGATCAGAATGCCACGGT  1372
+             ||||||||||||   |||||||||||| | |||||||||||  |||||||||||  ||||
+Sbjct  1202  TCTGCAACTCGAGAACATGAAGTCGGAGTTGCTAGTAATCGCAGATCAGAATGCTGCGGT  1261
+
+Query  1373  GAATACGTTCCCGGGCCTTGTACACACCGNCCGTNACACCATGGGAG  1419
+             |||| |||||||||| ||||||||||||| |||| ||||||||||||
+Sbjct  1262  GAATGCGTTCCCGGGTCTTGTACACACCGCCCGTCACACCATGGGAG  1308
+
+
+
+
+>NZ_NQOJ01000020.1 Gardnerella vaginalis strain NR039 C2207, whole genome shotgun sequence
+Sequence ID: Query_625251 Length: 1485
+Range 1: 124 to 1406
+
+Score:726 bits(393), Expect:0.0, 
+Identities:1010/1312(77%),  Gaps:45/1312(3%), Strand: Plus/Minus
+
+Query  246   AGCTAGTAGGTGGGGTAACGGCTCACCTAGGCGACGATCCCTAGCTGGTCTGAGAGGATG  305
+             |||| ||||| ||||||| ||| |||||||||  |||    |||| || ||||||||  |
+Sbjct  1406  AGCTTGTAGGCGGGGTAATGGCCCACCTAGGCTTCGACGGGTAGCCGGCCTGAGAGGGCG  1347
+
+Query  306   ACCAGCCACACTGGAACTGAGACACGGTCCAGACTCCTACGGGAGGCAGCAGTGGGGAAT  365
+               | |||||| ||| ||||||| |||| ||||||||||||||||||||||||||||||||
+Sbjct  1346  GACGGCCACATTGGGACTGAGATACGGCCCAGACTCCTACGGGAGGCAGCAGTGGGGAAT  1287
+
+Query  366   ATTGCACAATGGGCGCAAGCCTGATGCAGCCATGCCGCGTGTATGAAGAAGGCCTTCGGG  425
+             ||||| ||||||| | || ||||| ||||| | ||||||||   || |||||||||||||
+Sbjct  1286  ATTGCGCAATGGGGGAAACCCTGACGCAGCGACGCCGCGTGCGGGATGAAGGCCTTCGGG  1227
+
+Query  426   TTGTAAAGTACTTTCAGCGGGGAGGAAGGGAGTAAAGTTAATACCTTTGCTCATTGACGT  485
+             |||||||   ||||       ||    |||||  |||      || || |    ||| ||
+Sbjct  1226  TTGTAAACCGCTTT------TGA--TTGGGAG-CAAG------CC-TT-C-GGGTGA-GT  1186
+
+Query  486   -TACCCGCAGAAGAAGCACCGGCTAACTCCGNGCCAGCAGCCNCGGTAATACGGAGGGTG  544
+              ||||    ||| |||| |||||||||| || |||||||||| |||||||||| |||| |
+Sbjct  1185  GTACCTTTCGAATAAGCGCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGCG  1126
+
+Query  545   CAAGCGTTAATCGGAATTACTGGGCGTAAAGCGCACGCAGGCGGTTTGTTAAGTCAGATG  604
+             |||||||||  |||||||| ||||||||||| ||  | |||||||| ||   ||| | ||
+Sbjct  1125  CAAGCGTTATCCGGAATTATTGGGCGTAAAGAGCTTGTAGGCGGTTCGTCGCGTCTGGTG  1066
+
+Query  605   TGAAATCCCCGGGCTCAAC-CTGGGAACTGCATCTGATACTGGCAAGCTTGAGTCTCGTA  663
+             ||||| |||   ||| |||  ||||   |||  | | ||| |||  ||| ||||   |||
+Sbjct  1065  TGAAAGCCCATCGCTTAACGGTGGG-TTTGCGCCGGGTACGGGCGGGCTAGAGTGCAGTA  1007
+
+Query  664   GAGGGGGGTAGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAATACCGGT  723
+             | || |  | ||||||  |||||| ||||| |||| ||||| ||| ||| ||| |||  |
+Sbjct  1006  GGGGAGACTGGAATTCTCGGTGTAACGGTGGAATGTGTAGATATCGGGAAGAACACCAAT  947
+
+Query  724   GGCGAAGGCGGCCCCCTGGACGAAGACTGACGCTCAGGTGCGAAAGCGTGGGGAGCAAAC  783
+             ||||||||| |  | |||| |    ||||||||| ||  ||||||||||||||||| |||
+Sbjct  946   GGCGAAGGCAGGTCTCTGGGCTGTTACTGACGCTGAGAAGCGAAAGCGTGGGGAGCGAAC  887
+
+Query  784   AGGATTAGATACCCTGGTAGTCCACGCCGTAAACGATGT-CGACTTGGAGGTTGTGCCC-  841
+             ||||||||||||||||||||||||||||||||||| ||  || | |||| || | |||| 
+Sbjct  886   AGGATTAGATACCCTGGTAGTCCACGCCGTAAACGGTGGACG-C-TGGATGTGGGGCCCA  829
+
+Query  842   TTG-AGGCGTGGCT-TC-CGGAGCTAACGCGTTAAGTCGA-CCGCCTGGGGAGTACGGCC  897
+             ||  | | ||  || |  |||||||||||||||||| ||  |||||||||||||||||||
+Sbjct  828   TTCCACGGGTT-CTGTGTCGGAGCTAACGCGTTAAG-CGTCCCGCCTGGGGAGTACGGCC  771
+
+Query  898   GCAAGGTTAAAACTCAAATGAATTGACGGGGGCCCGCACAAGCGGTGGAGCATGTGGTTT  957
+             |||||| |||||||||||  ||||||||||||||||||||||||| |||||||| || ||
+Sbjct  770   GCAAGGCTAAAACTCAAAGAAATTGACGGGGGCCCGCACAAGCGGCGGAGCATGCGGATT  711
+
+Query  958   AATTCGATNNAACGCGAAGAACCTTACCTGGTCTTGACATCCACG-GAAGTTTTCAGAGA  1016
+             ||||||||  ||||||||||||||||||||| ||||||||   |  || |  | ||||||
+Sbjct  710   AATTCGATGCAACGCGAAGAACCTTACCTGGGCTTGACATGTGCCTGACGACTGCAGAGA  651
+
+Query  1017  TGAGAATGTGCCTTCGGGAACCGTGAGACAGGTGCTGCATGGCTGTCGTCAGCTCGTGTT  1076
+             || |  | | | ||||||  | |    ||||||| |||||||  ||||||||||||||| 
+Sbjct  650   TGTGGTT-TCCTTTCGGGG-CAGGTTCACAGGTGGTGCATGGTCGTCGTCAGCTCGTGTC  593
+
+Query  1077  GTGAAATGTTGGGTTAAGTCCCGCAACGAGCGCAACCCTTATCCTTTGTTGCCAGCGG-T  1135
+             |||| ||||||||||||||||||||||||||||||||||   ||| |||||||||||| |
+Sbjct  592   GTGAGATGTTGGGTTAAGTCCCGCAACGAGCGCAACCCTCGCCCTGTGTTGCCAGCGGGT  533
+
+Query  1136  CCGGCCGGGAACTCAAAGGAGACTGCCAGTGATAAACT-GGAGGAAGGTGGGGATGACGT  1194
+                ||||||||||||  || ||| ||| | | ||| || |||||||||||||||||||||
+Sbjct  532   TATGCCGGGAACTCACGGGGGACCGCCGGGGTTAA-CTCGGAGGAAGGTGGGGATGACGT  474
+
+Query  1195  CAAGTCATCATGNCCCTTACGACCAGGGCTACACACGTGCTACAATGGCGCA-TACAAAG  1253
+             ||  |||||||| |||||||| |||||||| ||| | |||||||||||| || ||||| |
+Sbjct  473   CAGATCATCATGCCCCTTACGTCCAGGGCTTCACGCATGCTACAATGGC-CAGTACAACG  415
+
+Query  1254  AGAAGCGACCTCGCGAGAGCAAGCGGACCTCATAAAG-TGCGTCGTAGTCCGGATTGGAG  1312
+              |  ||  | | | || |    ||  | | | ||||  || |||  ||| ||||| | ||
+Sbjct  414   GGTTGCTTCATGGTGACATGGTGCTAATCCCTTAAAACTG-GTCTCAGTTCGGATCGTAG  356
+
+Query  1313  TCTGCAACTCGACTCCATGAAGTCGGAATCGCTAGTAATCGTGGATCAG-AATGCCACGG  1371
+             |||||||||||||| | ||||| |||| ||||||||||||| | ||||| || | | |||
+Sbjct  355   TCTGCAACTCGACTACGTGAAGGCGGAGTCGCTAGTAATCGCGAATCAGCAACGTCGCGG  296
+
+Query  1372  TGAATACGTTCCCGGGCCTTGTACACACCGNCCGTNACACCATGGGAGTGGGTTGCAAAA  1431
+             ||||| |||||||||||||||||||||||| |||| |   ||||  ||||||  |||   
+Sbjct  295   TGAATGCGTTCCCGGGCCTTGTACACACCGCCCGTCAAGTCATGAAAGTGGGCAGCACCC  236
+
+Query  1432  GAAGTAGGTAGCTTAACC-TTC-GGGAGGGCGCTTACCACTTTGTGATTCATGACTGGGG  1489
+             ||||  ||| || ||||| ||  |||| || ||   | |   || |  || ||| |||| 
+Sbjct  235   GAAGCCGGTGGCCTAACCCTTTTGGGATGGAGCCGTCTAAGGTGAGGCTCGTGATTGGGA  176
+
+Query  1490  TGAAGTCGTAACAAGGTAACCGTAGGNGNNCCTGCGGTTGGATCACCTCCTT  1541
+               |||||||||||||||| |||||   |    ||||| ||||||||||||||
+Sbjct  175   CTAAGTCGTAACAAGGTAGCCGTACCGGAAGGTGCGGCTGGATCACCTCCTT  124
+
+
+
+
+>NZ_JBGONE010000038.1 Fusobacterium animalis strain Fn33kaz assembly_contig_38, whole genome shotgun sequence
+Sequence ID: Query_625249 Length: 1596
+Range 1: 275 to 1552
+
+Score:702 bits(380), Expect:0.0, 
+Identities:1009/1315(77%),  Gaps:53/1315(4%), Strand: Plus/Plus
+
+Query  243   ATTAGCTAGTAGGTGGGGTAACGGCTCACCTAGGCGACGATCCCTAGCTGGTCTGAGAGG  302
+             |||||||||| || | |||||| ||||||| |||||| |||   |||| || ||||||||
+Sbjct  275   ATTAGCTAGTTGGAGAGGTAACAGCTCACCAAGGCGATGATGGGTAGCCGGCCTGAGAGG  334
+
+Query  303   ATGACCAGCCACACTGGAACTGAGACACGGTCCAGACTCCTACGGGAGGCAGCAGTGGGG  362
+              ||| | ||||||  || |||||||||||| ||  |||||||||||||||||||||||||
+Sbjct  335   GTGAACGGCCACAAGGGGACTGAGACACGGCCCTTACTCCTACGGGAGGCAGCAGTGGGG  394
+
+Query  363   AATATTGCACAATGGGCGCA-AGCCTGATGCAGCCATGCCGCGTGTATGAAGAAGGCCTT  421
+             ||||||| ||||||| |  | || ||||| |||| || | | ||| | || ||||   ||
+Sbjct  395   AATATTGGACAATGGACCGAGAGTCTGATCCAGCAATTCTGTGTGCACGATGAAGTTTTT  454
+
+Query  422   CGGGTTGTAAAGTACTTTCAGCGGGGAGGAAGGGAGTAAAGTTAATACCTTTGCTCATTG  481
+             |||  |||||||| |||||||    | || |   || ||||   | |         | ||
+Sbjct  455   CGGAATGTAAAGTGCTTTCAG--TTG-GG-A---AG-AAAG---A-A---------A-TG  492
+
+Query  482   ACGTTACCCGCAGAAGAAGCACCGGCTAACTCCGNGCCAGCAGCCNCGGTAATACGGAGG  541
+             ||| ||||  |||||||||   ||||||| | || |||||||||| |||||||||| |  
+Sbjct  493   ACGGTACCAACAGAAGAAGTGACGGCTAAATACGTGCCAGCAGCCGCGGTAATACGTA-T  551
+
+Query  542   GTGCA--AGCGTTAATCGGAATTACTGGGCGTAAAGCGCACGC-AGGCGGTT-TGTTAAG  597
+             || ||  |||||||  |||| ||| ||||||||||||||   | ||| |||| || ||||
+Sbjct  552   GT-CACGAGCGTTATCCGGATTTATTGGGCGTAAAGCGC-GTCTAGGTGGTTATG-TAAG  608
+
+Query  598   TCAGATGTGAAATCCCCGGGCTCAACCTGGGAACTGCATCTGATACTGGCAAGCTTGAGT  657
+             || |||||||||   | |||||||| ||  | | ||| |  || ||||   | || ||||
+Sbjct  609   TCTGATGTGAAAATGCAGGGCTCAA-CTCTGTATTGCGTTGGAAACTGTATAACTAGAGT  667
+
+Query  658   -CTCGTAGAGGGGGGTAGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAA  716
+              || | |||||   |  ||| | || |||||| |||||||| |||||| || || |||||
+Sbjct  668   ACT-GGAGAGGTAAGCGGAACTACAAGTGTAGAGGTGAAATTCGTAGATATTTGTAGGAA  726
+
+Query  717   TACCGGTGGCGAAGGCGGCCCCCTGGACGAAGACTGACGCTCAGGTGCGAAAGCGTGGGG  776
+             | ||| ||| |||| | ||   ||||||  | ||||||||| | | ||||||||||||| 
+Sbjct  727   TGCCGATGGGGAAGCCAGCTTACTGGACAGATACTGACGCTAAAGCGCGAAAGCGTGGGT  786
+
+Query  777   AGCAAACAGGATTAGATACCCTGGTAGTCCACGCCGTAAACGATGTCGACTTGGAGGTTG  836
+             |||||||||||||||||||||||||||||||||| ||||||||||   ||| || | |||
+Sbjct  787   AGCAAACAGGATTAGATACCCTGGTAGTCCACGCTGTAAACGATGATTACTAGGTG-TTG  845
+
+Query  837   TGCCCTTGAGGCGTGGCTTCCGGAGCTAACGCGTTAAGTCGACCGCCTGGGGAGTACGGC  896
+              |   | ||  |   ||  ||  ||| |||||| |||||   ||||||||||||||||  
+Sbjct  846   GGGG-TCGAACCTCAGCGCCCA-AGCAAACGCGATAAGTAATCCGCCTGGGGAGTACGTA  903
+
+Query  897   CGCAAGGTTAAAACTCAAATGAATTGACGGGGGCCCGCACAAGCGGTGGAGCATGTGGTT  956
+             ||||||  | ||||||||| |||||||||||| |||||||||||||||||||||||||||
+Sbjct  904   CGCAAGTATGAAACTCAAAGGAATTGACGGGGACCCGCACAAGCGGTGGAGCATGTGGTT  963
+
+Query  957   TAATTCGATNNAACGCGAAGAACCTTACCTG-GTCTTGACATCCACGGAA-GTTTTCAGA  1014
+             ||||||||   ||||||| |||||||||| | || ||||||||   |||| |   | |||
+Sbjct  964   TAATTCGACGCAACGCGAGGAACCTTACCAGCGT-TTGACATCTTAGGAATGAGAT-AGA  1021
+
+Query  1015  GATGAGA-A-TGTGCCTTCGGG-AACCGTG-AGACAGGTGCTGCATGGCTGTCGTCAGCT  1070
+             |||     | ||| |||||||| || | |  ||||||||| |||||||||||||||||||
+Sbjct  1022  GATATTTCAGTGTCCCTTCGGGGAAACCTAAAGACAGGTGGTGCATGGCTGTCGTCAGCT  1081
+
+Query  1071  CGTGTTGTGAAATGTTGGGTTAAGTCCCGCAACGAGCGCAACCCTTATCCTTTGTTGCCA  1130
+             ||||| |||| ||||||||||||||||||||||||||||||||| | || | |||| |||
+Sbjct  1082  CGTGTCGTGAGATGTTGGGTTAAGTCCCGCAACGAGCGCAACCCCTTTCGTATGTTACCA  1141
+
+Query  1131  GCGGTCCGGCCGGGAACTCAAAGGAGACTGCCAGTGATAAACTGGAGGAAGGTGGGGATG  1190
+              |  |  |   |||| ||||   || ||||||   ||| |   |||||||||||||||||
+Sbjct  1142  TCATTAAGTTGGGGA-CTCATGCGATACTGCCTACGATGAGTAGGAGGAAGGTGGGGATG  1200
+
+Query  1191  ACGTCAAGTCATCATGNCCCTTACGAC-CAGGGCTACACACGTGCTACAATGGCGCAT-A  1248
+             |||||||||||||||| ||||||  || | ||||||||||||||||||||||| | |  |
+Sbjct  1201  ACGTCAAGTCATCATGCCCCTTAT-ACGCTGGGCTACACACGTGCTACAATGG-GTAGAA  1258
+
+Query  1249  CAAAGAGAAGCGACCTCGCGAGAGCAAGCGGACCTCATAAAGTGCGTCGTAGTCCGGATT  1308
+             || ||||  || |   || |||   ||||  | |||| |||     || |||| ||||||
+Sbjct  1259  CAGAGAGTTGCAAAGCCGTGAGGTGAAGCTAATCTCAGAAAACTATTCTTAGTTCGGATT  1318
+
+Query  1309  GGAGTCTGCAACTCGACTCCATGAAGTCGGAATCGCTAGTAATCGTGGATCAG-AATGCC  1367
+             | | |||||||||||| | |||||||| ||||||||||||||||| | ||||| |||| |
+Sbjct  1319  GTACTCTGCAACTCGAGTACATGAAGTTGGAATCGCTAGTAATCGCGAATCAGCAATGTC  1378
+
+Query  1368  ACGGTGAATACGTTCCCGGGCCTTGTACACACCGNCCGTNACACCATGGGAGTGGGTTGC  1427
+              |||||||||||||| |||| ||||||||||||| |||| |||||| | |||| ||||||
+Sbjct  1379  GCGGTGAATACGTTCTCGGGTCTTGTACACACCGCCCGTCACACCACGAGAGTTGGTTGC  1438
+
+Query  1428  AAAAGAAGTAGGTAGCTTAACCTTCGGGAGGGC-GCTTACCACTTTGTGATTCATGACTG  1486
+             |   |||||||   || ||||| |  ||||||  |||  | |   |||||||   || ||
+Sbjct  1439  ACCTGAAGTAGCAGGCCTAACCGTAAGGAGGGATGCT-CCGAGGGTGTGATTAGCGATTG  1497
+
+Query  1487  GGGTGAAGTCGTAACAAGGTAACCGTAGGNGNNCCTGCGGTTGGATCACCTCCTT  1541
+             ||||||||||||||||||||| ||||| | |  | ||||| ||||||||||||||
+Sbjct  1498  GGGTGAAGTCGTAACAAGGTATCCGTACGGGAACGTGCGGATGGATCACCTCCTT  1552
+
+
+
+
+>NZ_JASOSB010000012.1 Peptoniphilus harei strain UMB0065B NODE_12_length_1479_cov_441.346648, whole genome shotgun sequence
+Sequence ID: Query_625269 Length: 1479
+Range 1: 166 to 1310
+
+Score:688 bits(372), Expect:0.0, 
+Identities:924/1189(78%),  Gaps:56/1189(4%), Strand: Plus/Minus
+
+Query  243   ATTAGCTAGTAGGTGGGGTAACGGCTCACCTAGGCGACGATCCCTAGCTGGTCTGAGAGG  302
+             |||||||||| |||| ||||||||| |||| ||||||||||   |||| || ||||||||
+Sbjct  1310  ATTAGCTAGTTGGTGAGGTAACGGCCCACCAAGGCGACGATGGGTAGCCGGCCTGAGAGG  1251
+
+Query  303   ATGACCAGCCACACTGGAACTGAGACACGGTCCAGACTCCTACGGGAGGCAGCAGTGGGG  362
+              ||| | |||||| ||||||||||| |||||||| |||||||||||||||||||||||||
+Sbjct  1250  GTGAACGGCCACATTGGAACTGAGAAACGGTCCAAACTCCTACGGGAGGCAGCAGTGGGG  1191
+
+Query  363   AATATTGCACAATGGGCGCAAGCCTGATGCAGCCATGCCGCGTGTATGAAGAAGGCCTTC  422
+             |||||||||||||||  | ||  |||||||||| | |||||||| | ||||||||| |||
+Sbjct  1190  AATATTGCACAATGGAGGGAACTCTGATGCAGCGACGCCGCGTGAACGAAGAAGGCTTTC  1131
+
+Query  423   GGGTTGTAAAGTACTTTCAGCGGGGAGGAAGGGAGTAAAGTTAATACCTTTGCTCATTGA  482
+             | || ||||||| |||| |   ||||  | |  | ||| |  |   |  |  | |||  |
+Sbjct  1130  GAGTCGTAAAGTTCTTTTATATGGGA--A-G--A-TAATG--A---CGGTA-C-CAT--A  1086
+
+Query  483   CGTTACCCGCAGAAGAAGCACCGGCTAACTCCGNGCCAGCAGCCNCGGTAATACGGAGGG  542
+                 |   | | || |||| |||||||||| || |||||||||| |||||||||| ||||
+Sbjct  1085  ----A---G-A-AA-AAGCCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGG  1036
+
+Query  543   TGCAAGCGTTAATCGGAATTACTGGGCGTAAAGCGCACGCAGGCGGTT-TGTTAAGTCAG  601
+              || ||||||   |||||| ||||||||||||| |  |||||||||   ||  |||||||
+Sbjct  1035  GGCTAGCGTTGTCCGGAATCACTGGGCGTAAAGGGTTCGCAGGCGGAAATGC-AAGTCAG  977
+
+Query  602   ATGTGAAATCCCCGGGCTCAAC--CTGGGAACTGCATCTGATACTGGCA-AGCTTGAGTC  658
+              ||| |||  |    ||| |||  |||  ||  |||| ||| |||| || | ||||||  
+Sbjct  976   GTGTAAAAGGCAGTAGCTTAACTACTGT-AA--GCATTTGAAACTG-CATATCTTGAGAA  921
+
+Query  659   TCGTAGAGGGGGGTAGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAATA  718
+               |||||||   || |||||    |||||||||||||||||||||| ||    | |||||
+Sbjct  920   GAGTAGAGGTAAGTGGAATTTTTAGTGTAGCGGTGAAATGCGTAGATATTAAAAAGAATA  861
+
+Query  719   CCGGTGGCGAAGGCGGCCCCCTGGACGAAGACTGACGCTCAGGTGCGAAAGCGTGGGGAG  778
+             ||||||||||||||| |   |||| |  |  |||||||| |||  |||||||||||| ||
+Sbjct  860   CCGGTGGCGAAGGCGACTTACTGGGCTCATTCTGACGCTGAGGAACGAAAGCGTGGGTAG  801
+
+Query  779   CAAACAGGATTAGATACCCTGGTAGTCCACGCCGTAAACGATG-TCGACTTGGAGGT-TG  836
+             |||||||||||||||||||||||||||||||| ||||||||||   | ||   |||| | 
+Sbjct  800   CAAACAGGATTAGATACCCTGGTAGTCCACGCTGTAAACGATGAGTG-CT---AGGTATC  745
+
+Query  837   TGCCCTTGAGGCGTGGCTTCCGGAGCTAACGCGTTAAGTCGA-CCGCCTGGGGAGTACGG  895
+              |   |  |  || |  | ||| || |||| | ||||| |   |||||||||||||||| 
+Sbjct  744   GGAA-TA-ATTCG-G--TGCCGCAGTTAACACATTAAG-CACTCCGCCTGGGGAGTACGT  691
+
+Query  896   CCGCAAGGTTAAAACTCAAATGAATTGACGGGGGCCCGCACAAGCGGTGGAGCATGTGGT  955
+              ||||||  | ||||||||| |||||||||||| ||||||||||| | ||||||||||||
+Sbjct  690   GCGCAAGCATGAAACTCAAAGGAATTGACGGGGACCCGCACAAGCAGCGGAGCATGTGGT  631
+
+Query  956   TTAATTCGATNNAACGCGAAGAACCTTACCTGGTCTTGACATCC-ACGGAA-GTTTTCAG  1013
+             |||||||||   |||||||||||||||||| || |||||||| |   |||  | | | ||
+Sbjct  630   TTAATTCGAAGCAACGCGAAGAACCTTACCAGGGCTTGACATACTGAGGACCGGTAT-AG  572
+
+Query  1014  AGATGAGAA--TGTGCCTTCGGGAACCGTGAGACAGGTGCTGCATGGCTGTCGTCAGCTC  1071
+             |||| | |   | | | ||||| | ||   | ||||||| ||||||| ||||||||||||
+Sbjct  571   AGAT-ATACCCTCTTC-TTCGGAAGCCTCAATACAGGTGGTGCATGGTTGTCGTCAGCTC  514
+
+Query  1072  GTGTTGTGAAATGTTGGGTTAAGTCCCGCAACGAGCGCAACCCTTATCCTTTGTTGCCAG  1131
+             |||| |||| |||||  ||||||||  |||||||||||||||| |||| || ||| ||||
+Sbjct  513   GTGTCGTGAGATGTTCAGTTAAGTCTGGCAACGAGCGCAACCCCTATCTTTAGTTACCAG  454
+
+Query  1132  CGGTCCGGCCGGGAACTCAAAGGAGACTGCCAGTGATAAACTGGAGGAAGGTGGGGATGA  1191
+             |  | |||  ||| |||| || |||||||||  |||||||  ||||||||||||||||||
+Sbjct  453   CATTTCGGATGGGGACTCTAAAGAGACTGCCGATGATAAATCGGAGGAAGGTGGGGATGA  394
+
+Query  1192  CGTCAAGTCATCATGNCCCT-TACGACCAGGGCTACACACGTGCTACAATGGCGCATACA  1250
+             |||||| |||||||| |||| || | || |||||||||||||||||||||||   |||||
+Sbjct  393   CGTCAAATCATCATG-CCCTATATGCCCTGGGCTACACACGTGCTACAATGGAAGATACA  335
+
+Query  1251  AAGAGAAGCGACCTCGCGAGAGCAAGCGGACCTCATAAAGTGCGTCGTAGTCCGGATTGG  1310
+             ||| |||||||  | | || |  ||||  |||||| |||||   ||  ||| ||||||| 
+Sbjct  334   AAGGGAAGCGAAATAGTGATATTAAGCAAACCTCAAAAAGTCTTTCCCAGTTCGGATTGT  275
+
+Query  1311  AGTCTGCAACTCGACTCCATGAAGTCGGAATCGCTAGTAATCGTGGATCAGAATGCCACG  1370
+             | |||||||||||| | |||||||  ||| | |||||||||||  |||||||||||  ||
+Sbjct  274   ACTCTGCAACTCGAGTACATGAAGATGGAGTTGCTAGTAATCGCAGATCAGAATGCTGCG  215
+
+Query  1371  GTGAATACGTTCCCGGGCCTTGTACACACCGNCCGTNACACCATGGGAG  1419
+             |||||| |||||||||| ||||||||||||| |||| ||||||||| ||
+Sbjct  214   GTGAATGCGTTCCCGGGTCTTGTACACACCGCCCGTCACACCATGGAAG  166
+
+
+
+
+>NZ_JANDZW010000012.1 Parvimonas micra strain PM94KC-G-1 PM94KC_G_1.12, whole genome shotgun sequence
+Sequence ID: Query_625268 Length: 1604
+Range 1: 171 to 1093
+
+Score:680 bits(368), Expect:0.0, 
+Identities:747/935(80%),  Gaps:20/935(2%), Strand: Plus/Minus
+
+Query  497   GAAGCACCGGCTAACTCCGNGCCAGCAGCCNCGGTAATACGGAGGGTGCAAGCGTTAATC  556
+             ||||| |||||||| | || |||||||||| |||||||||| | || || ||||||   |
+Sbjct  1093  GAAGCCCCGGCTAAATACGTGCCAGCAGCCGCGGTAATACGTATGGGGCGAGCGTTGTCC  1034
+
+Query  557   GGAATTACTGGGCGTAAAGCGCACGCAGGCGGTTTGTTAAGTCAGATGTGAAATCCCCGG  616
+             ||||||| ||||||||||| | ||| ||||||||| ||||||||| ||||||| |    |
+Sbjct  1033  GGAATTATTGGGCGTAAAGGGTACGTAGGCGGTTTTTTAAGTCAGGTGTGAAAGCGTGAG  974
+
+Query  617   GCTCAACCTGGGAACTGCATCTGATACTGGCAAG-CTTGAGTCTCGTAGAGGGGGGTAGA  675
+             ||| |||||    |  |||  ||| ||||| ||| |||||||   | |||||   || ||
+Sbjct  973   GCTTAACCTCATTAA-GCACTTGAAACTGG-AAGACTTGAGTGAAGGAGAGGAAAGTGGA  916
+
+Query  676   ATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAATACCGGTGGCGAAGGCGGC  735
+             |||||  |||||||||||||||||||||| ||  |||||||||||||||||||||||| |
+Sbjct  915   ATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAATACCGGTGGCGAAGGCGAC  856
+
+Query  736   CCCCTGGACGAAGACTGACGCTCAGGTGCGAAAGCGTGGGGAGCAAACAGGATTAGATAC  795
+                ||||||    |||||||||||||| ||||||||||||||||||||||||||||||||
+Sbjct  855   TTTCTGGACTTTTACTGACGCTCAGGTACGAAAGCGTGGGGAGCAAACAGGATTAGATAC  796
+
+Query  796   CCTGGTAGTCCACGCCGTAAACGATG-TCGACTTGGAGGTTGTGCCCTTGAGGCGTGGCT  854
+             ||||||||||||||||||||||||||   | || || | ||| |   |  |  | | | |
+Sbjct  795   CCTGGTAGTCCACGCCGTAAACGATGAATG-CTAGGTG-TTGGGAG-TCAAATC-TCGGT  740
+
+Query  855   TCCGGAGCTAACGCGTTAAGTCGA-CCGCCTGGGGAGTACGGCCGCAAGGTTAAAACTCA  913
+              ||| || |||| | ||||| |   |||||||||||||||||  ||||   | |||||||
+Sbjct  739   GCCGAAGTTAACACATTAAG-CATTCCGCCTGGGGAGTACGGTGGCAACACTGAAACTCA  681
+
+Query  914   AATGAATTGACGGGGGCCCGCACAAGCGGTGGAGCATGTGGTTTAATTCGATNNAACGCG  973
+             || |||||||||||| ||||||||||| | |||||||||||||||||||||   ||||||
+Sbjct  680   AAGGAATTGACGGGGACCCGCACAAGCAGCGGAGCATGTGGTTTAATTCGAAGCAACGCG  621
+
+Query  974   AAGAACCTTACCTGGTCTTGACATCCACGGAAGTT-TTCAGAGAT-GAGAATGTGCCTTC  1031
+             ||||||||||||  | ||||||||  |    |||| || ||| || || || || ||| |
+Sbjct  620   AAGAACCTTACCAAGGCTTGACATATAGTTGAGTTATTGAGAAATTGATAA-GTCCCT-C  563
+
+Query  1032  GGGA-ACCGTGAGACAGGTGCTGCATGGCTGTCGTCAGCTCGTGTTGTGAAATGTTGGGT  1090
+             |||| | | | | ||||||| ||||||| |||||||||||||||| |||| |||||||||
+Sbjct  562   GGGACAAC-T-ATACAGGTGGTGCATGGTTGTCGTCAGCTCGTGTCGTGAGATGTTGGGT  505
+
+Query  1091  TAAGTCCCGCAACGAGCGCAACCCTTATCCTTTGTTGCCAGCG-GTCCGGCCGGGAACTC  1149
+             ||||||||||||||||||||||||||||| |  |||||||||  ||   |  ||||||||
+Sbjct  504   TAAGTCCCGCAACGAGCGCAACCCTTATCTTCAGTTGCCAGCACGTAGAGGTGGGAACTC  445
+
+Query  1150  AAAGGAGACTGCCAGTGATAAACTGGAGGAAGGTGGGGATGACGTCAAGTCATCATGNCC  1209
+                 |||||||||  ||| |||  |||||||||||||||||||||||| |||||||| ||
+Sbjct  444   TGGAGAGACTGCCGATGACAAATCGGAGGAAGGTGGGGATGACGTCAAATCATCATGCCC  385
+
+Query  1210  CTTACGACCAGGGCTACACACGTGCTACAATGGCGCATACAAAGAGAAGCGACCTCGCGA  1269
+              ||| | |  |||||||||||||||||||||||    ||||| |||||||||  | | ||
+Sbjct  384   TTTATGTCTTGGGCTACACACGTGCTACAATGGTTGGTACAACGAGAAGCGAGATAGAGA  325
+
+Query  1270  GAGCAAGCGGACCTCATAAAGTGCG-TCGTAGTCCGGATTGGAGTCTGCAACTCGACTCC  1328
+                 ||||| | ||| ||||   |  ||  ||| ||||||| || |||||||||| || |
+Sbjct  324   TGTTAAGCGAAACTC-TAAAAACCAATCTCAGTTCGGATTGTAGGCTGCAACTCGCCTAC  266
+
+Query  1329  ATGAAGTCGGAATCGCTAGTAATCGTGGATCAGAATGCCACGGTGAATACGTTCCCGGGC  1388
+             ||||||||||| | ||||||||||| | ||||||||| | |||||||| |||||||||| 
+Sbjct  265   ATGAAGTCGGAGTTGCTAGTAATCGCGAATCAGAATGTCGCGGTGAATGCGTTCCCGGGT  206
+
+Query  1389  CTTGTACACACCGNCCGTNACACCATGGGAGTGGG  1423
+             ||||||||||||| |||| ||||||||||||| ||
+Sbjct  205   CTTGTACACACCGCCCGTCACACCATGGGAGTTGG  171
+
+
+
+
+Range 2: 1132 to 1323
+
+Score:206 bits(111), Expect:1e-54, 
+Identities:165/192(86%),  Gaps:0/192(0%), Strand: Plus/Minus
+
+Query  242   GATTAGCTAGTAGGTGGGGTAACGGCTCACCTAGGCGACGATCCCTAGCTGGTCTGAGAG  301
+             ||||||||||| ||  |||||| |||  ||| |||||||||||  |||| ||||||||||
+Sbjct  1323  GATTAGCTAGTTGGAAGGGTAAAGGCCTACCAAGGCGACGATCAGTAGCCGGTCTGAGAG  1264
+
+Query  302   GATGACCAGCCACACTGGAACTGAGACACGGTCCAGACTCCTACGGGAGGCAGCAGTGGG  361
+             ||||| | |||||| |||||||||||||||||||| ||||||||||||||||||||||||
+Sbjct  1263  GATGAACGGCCACATTGGAACTGAGACACGGTCCAAACTCCTACGGGAGGCAGCAGTGGG  1204
+
+Query  362   GAATATTGCACAATGGGCGCAAGCCTGATGCAGCCATGCCGCGTGTATGAAGAAGGCCTT  421
+             ||||||||||||||||| | || ||||||||||| | ||||||||   ||||||||  ||
+Sbjct  1203  GAATATTGCACAATGGGGGGAACCCTGATGCAGCGACGCCGCGTGAGCGAAGAAGGTTTT  1144
+
+Query  422   CGGGTTGTAAAG  433
+             ||  | ||||||
+Sbjct  1143  CGAATCGTAAAG  1132
+
+
+
+
+Range 3: 53 to 114
+
+Score:71.3 bits(38), Expect:4e-14, 
+Identities:53/62(85%),  Gaps:0/62(0%), Strand: Plus/Minus
+
+Query  1480  ATGACTGGGGTGAAGTCGTAACAAGGTAACCGTAGGNGNNCCTGCGGTTGGATCACCTCC  1539
+             |||||||||||||||||||||||||||| |||||   |    ||||| ||||||||||||
+Sbjct  114   ATGACTGGGGTGAAGTCGTAACAAGGTAGCCGTATCGGAAGGTGCGGCTGGATCACCTCC  55
+
+Query  1540  TT  1541
+             ||
+Sbjct  54    TT  53
+
+
+
+
+>NZ_KV803777.1 Anaerococcus sp. HMSC068A02 Scaffold270, whole genome shotgun sequence
+Sequence ID: Query_625239 Length: 1596
+Range 1: 498 to 1422
+
+Score:582 bits(315), Expect:4e-168, 
+Identities:731/937(78%),  Gaps:21/937(2%), Strand: Plus/Plus
+
+Query  493   AGAAGAAGCACCGGCTAACTCCGNGCCAGCAGCCNCGGTAATACGGAGGGTGCAAGCGTT  552
+             |||| |||  |||||||| | || |||||||||| |||||||||| | ||  | ||||||
+Sbjct  498   AGAATAAGGTCCGGCTAAATACGTGCCAGCAGCCGCGGTAATACGTATGGACCGAGCGTT  557
+
+Query  553   AATCGGAATTACTGGGCGTAAAGCGCACGCAGGCGGTTTGTTAAGTCAGATGTGAAATCC  612
+                |||||| | ||||||||||| | ||| ||||||  |  ||||| ||| |||||||  
+Sbjct  558   GTCCGGAATCATTGGGCGTAAAGGGTACGTAGGCGGCCTAGTAAGTTAGAAGTGAAATAA  617
+
+Query  613   CCGGGCTCAACCTGGGAACTGCATCTGATACTGGCAAGCTTGAGTCTCGTAGAGGG-GGG  671
+                 ||||||| |    |  || | | | ||||  | |||||||    | | ||||   |
+Sbjct  618   TATAGCTCAAC-TATATAAAGCTTTTAAAACTGTTAGGCTTGAGAGATG-AAAGGGAAAG  675
+
+Query  672   TAGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAATACCGGTGGCGAAGG  731
+             | |||||||  |||||||||||||||||| ||| ||  ||| ||||||||||||||||||
+Sbjct  676   TGGAATTCCTAGTGTAGCGGTGAAATGCGCAGATATTAGGAAGAATACCGGTGGCGAAGG  735
+
+Query  732   CGGCCCCCTGGACGAAGA-CTGACGCTCAGGTGCGAAAGCGTGGGGAGCAAACAGGATTA  790
+             || |   |||| | |  | |||||||| |||| |||||||||||| ||||||||||||||
+Sbjct  736   CGACTTTCTGGTC-ATCATCTGACGCTGAGGTACGAAAGCGTGGGTAGCAAACAGGATTA  794
+
+Query  791   GATACCCTGGTAGTCCACGCCGTAAACGATGTCGACTTGGAGGTTGTGCCCTTGAGGCGT  850
+             |||||||||||||||||||| ||||||||||  |  ||  ||||| |     | |  | |
+Sbjct  795   GATACCCTGGTAGTCCACGCTGTAAACGATGA-GTGTT--AGGTTCTTGGAATAAT-C-T  849
+
+Query  851   GGCTTCCGGAGCTAACGCGTTAAGTCGA-CCGCCTGGGGAGTACGGCCGCAAGGTTAAAA  909
+             ||   ||| ||||||||| ||||  |   ||||||||||||||||  ||||||  | |||
+Sbjct  850   GGGAGCCGCAGCTAACGCATTAAA-CACTCCGCCTGGGGAGTACGCACGCAAGTGTGAAA  908
+
+Query  910   CTCAAATGAATTGACGGGGGCCCGCACAAGCGGTGGAGCATGTGGTTTAATTCGATNNAA  969
+             |||||| |||||||||||| ||||||||||| | |||||||||||||||||||||   ||
+Sbjct  909   CTCAAAGGAATTGACGGGGACCCGCACAAGCAGCGGAGCATGTGGTTTAATTCGACGCAA  968
+
+Query  970   CGCGAAGAACCTTACCTGGTCTTGACATCC-ACGG--AAGTTTTCAGAGATGAGAATGT-  1025
+             ||||||||||||||||  ||||||||||   ||||  ||  ||  |||||| |   | | 
+Sbjct  969   CGCGAAGAACCTTACCAAGTCTTGACATATTACGGCGAAAATT--AGAGATAATTTTCTA  1026
+
+Query  1026  -GCCTTCGGG-AACCGTGAGACAGGTGCTGCATGGCTGTCGTCAGCTCGTGTTGTGAAAT  1083
+              | ||||||  ||| || | ||||||| ||||||| |||||||||||||||| |||| ||
+Sbjct  1027  TGACTTCGGTCAACTGTAATACAGGTGGTGCATGGTTGTCGTCAGCTCGTGTCGTGAGAT  1086
+
+Query  1084  GTTGGGTTAAGTCCCGCAACGAGCGCAACCCTTATCCTTTGTTGCCAGCGGTCCGGCCGG  1143
+             |||||||||||||||  |||||||||||||| |||| || ||| ||| |  |  |   ||
+Sbjct  1087  GTTGGGTTAAGTCCCATAACGAGCGCAACCCCTATCGTTAGTTACCATCATTAAGTTGGG  1146
+
+Query  1144  GAACTCAAAGGAGACTGCCAGTGATAAACTGGAGGAAGGTGGGGATGACGTCAAGTCATC  1203
+             || ||| |  || |||||| ||||||||| ||||||||||||||| |||||||| |||||
+Sbjct  1147  GA-CTCTAGCGATACTGCCGGTGATAAACCGGAGGAAGGTGGGGACGACGTCAAATCATC  1205
+
+Query  1204  ATGNCCCTTACGACCAGGGCTACACACGTGCTACAATGGCGCATACAAAGAGAAGCGACC  1263
+             ||| || ||| |||  ||||||||||||||||||||||||  ||||| || | |||||  
+Sbjct  1206  ATGCCCTTTATGACTTGGGCTACACACGTGCTACAATGGCAGATACAGAGGGCAGCGAAA  1265
+
+Query  1264  TCGCGAGAGCAAGCGGACCTCATAAAGTGCGTCGTAGTCCGGATTGGAGTCTGCAACTCG  1323
+               ||||    ||||| | |||| |||||  |||  ||| ||||||| | |||||||||||
+Sbjct  1266  GAGCGATCTGAAGCGAAACTCACAAAGTCTGTCCCAGTTCGGATTGTACTCTGCAACTCG  1325
+
+Query  1324  ACTCCATGAAGTCGGAATCGCTAGTAATCGTGGATCAGAATGCCACGGTGAATACGTTCC  1383
+             | | |||||||| ||| | ||||||||||| | ||||||||| | |||||||| ||||||
+Sbjct  1326  AGTACATGAAGTTGGAGTTGCTAGTAATCGCGAATCAGAATGTCGCGGTGAATGCGTTCC  1385
+
+Query  1384  CGGGCCTTGTACACACCGNCCGTNACACCATGGGAGT  1420
+             |||| ||||||||||||| |||| |||||||||||||
+Sbjct  1386  CGGGTCTTGTACACACCGCCCGTCACACCATGGGAGT  1422
+
+
+
+
+Range 2: 273 to 462
+
+Score:185 bits(100), Expect:1e-48, 
+Identities:161/191(84%),  Gaps:1/191(0%), Strand: Plus/Plus
+
+Query  242  GATTAGCTAGTAGGTGGGGTAACGGCTCACCTAGGCGACGATCCCTAGCTGGTCTGAGAG  301
+            ||||||||||| |||| | |||  || |||| |||||||||||  |||| ||  ||||||
+Sbjct  273  GATTAGCTAGTTGGTGAGATAAAAGCCCACCAAGGCGACGATCAGTAGCCGGCTTGAGAG  332
+
+Query  302  GATGACCAGCCACACTGGAACTGAGACACGGTCCAGACTCCTACGGGAGGCAGCAGTGGG  361
+              ||  | |||||| ||| |||||||||||| ||| ||||||||||||||||||||||||
+Sbjct  333  AGTGTACGGCCACATTGGGACTGAGACACGGCCCAAACTCCTACGGGAGGCAGCAGTGGG  392
+
+Query  362  GAATATTGCACAATGGGCGCAAGCCTGATGCAGCCATGCCGCGTGTATGAAGAAGGCCTT  421
+            |||| |||||||||||| | || ||||||||||| | |||||||| ||  ||||||||||
+Sbjct  393  GAATTTTGCACAATGGGGGAAACCCTGATGCAGCGACGCCGCGTG-ATTTAGAAGGCCTT  451
+
+Query  422  CGGGTTGTAAA  432
+            |||||||||||
+Sbjct  452  CGGGTTGTAAA  462
+
+
+
+
+
+
+
+		
+
+
